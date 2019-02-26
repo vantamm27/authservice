@@ -1,0 +1,100 @@
+reboot
+INFO - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+INFO - local: Created a new connection
+INFO - Logging initialized @2358ms
+INFO - Thread MonitorService started at port 8096
+INFO - Thread MonitorWebService started at port 8097
+INFO - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+Here is the standard output of the command:
+
+INFO - local: Created a new connection
+0: The fingerprint sensor could not be initialized!
+1: Exception message: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+#####################
+The fingerprint sensor could not be initialized!
+Exception message: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+
+error
+The fingerprint sensor could not be initialized!
+Exception message: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+
+failure
+INFO - jetty-9.1.5.v20140505
+INFO - Started o.e.j.s.h.ContextHandler@1f93a588{/alert/admin,null,AVAILABLE}
+INFO - Started o.e.j.s.ServletContextHandler@5871de19{/,null,AVAILABLE}
+INFO - Started ServerConnector@42444ea7{HTTP/1.1}{0.0.0.0:8096}
+INFO - Started ServerConnector@5b3cb271{HTTP/1.1}{0.0.0.0:8097}
+INFO - Started @2486ms
+Here is the standard output of the command:
+
+0: The fingerprint sensor could not be initialized!
+1: Exception message: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+#####################
+The fingerprint sensor could not be initialized!
+Exception message: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+
+error
+The fingerprint sensor could not be initialized!
+Exception message: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+
+failure
+Here is the standard output of the command:
+
+0: The fingerprint sensor could not be initialized!
+1: Exception message: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+#####################
+The fingerprint sensor could not be initialized!
+Exception message: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+
+error
+The fingerprint sensor could not be initialized!
+Exception message: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+
+failure
+Here is the standard output of the command:
+
+0: The fingerprint sensor could not be initialized!
+1: Exception message: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+#####################
+The fingerprint sensor could not be initialized!
+Exception message: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+
+error
+The fingerprint sensor could not be initialized!
+Exception message: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+
+failure
+INFO - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+INFO - local: Created a new connection
+Here is the standard output of the command:
+
+0: The fingerprint sensor could not be initialized!
+1: Exception message: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+#####################
+The fingerprint sensor could not be initialized!
+Exception message: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+
+error
+The fingerprint sensor could not be initialized!
+Exception message: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+
+failure
+Here is the standard output of the command:
+
+0: The fingerprint sensor could not be initialized!
+1: Exception message: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+#####################
+The fingerprint sensor could not be initialized!
+Exception message: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+
+error
+The fingerprint sensor could not be initialized!
+Exception message: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+
+failure
+INFO - Shutdown thread before webservice getinstance
+INFO - Stopped ServerConnector@42444ea7{HTTP/1.1}{0.0.0.0:8096}
+INFO - Stopped ServerConnector@5b3cb271{HTTP/1.1}{0.0.0.0:8097}
+INFO - Stopped o.e.j.s.ServletContextHandler@5871de19{/,null,UNAVAILABLE}
+INFO - Stopped o.e.j.s.h.ContextHandler@1f93a588{/alert/admin,null,UNAVAILABLE}
+Thread WebService stopped . . .

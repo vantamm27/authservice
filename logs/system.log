@@ -1,0 +1,1032 @@
+2019-01-11 16:20:26  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-11 16:20:26  INFO local:839 - local: Created a new connection
+2019-01-11 16:20:26  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-11 16:20:26  INFO local:839 - local: Created a new connection
+2019-01-11 16:20:26  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-11 16:20:26  INFO local:839 - local: Created a new connection
+2019-01-11 16:20:26  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-11 16:20:26  INFO local:839 - local: Created a new connection
+2019-01-11 16:20:26  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-11 16:20:26  INFO local:839 - local: Created a new connection
+2019-01-11 16:20:26  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-11 16:20:26  INFO local:839 - local: Created a new connection
+2019-01-11 16:20:30  INFO log:178 - Logging initialized @6116ms
+2019-01-11 16:20:30  INFO WebService:68 - Thread MonitorService started at port 8096
+2019-01-11 16:20:30  INFO WebService:69 - Thread MonitorWebService started at port 8097
+2019-01-11 16:20:30  INFO Server:301 - jetty-9.1.5.v20140505
+2019-01-11 16:20:30  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@1205e6e9{/alert/admin,null,AVAILABLE}
+2019-01-11 16:20:30  INFO ContextHandler:747 - Started o.e.j.s.ServletContextHandler@6c5340d5{/,null,AVAILABLE}
+2019-01-11 16:20:30  INFO ServerConnector:266 - Started ServerConnector@11398405{HTTP/1.1}{0.0.0.0:8096}
+2019-01-11 16:20:30  INFO ServerConnector:266 - Started ServerConnector@4cb6ab94{HTTP/1.1}{0.0.0.0:8097}
+2019-01-11 16:20:30  INFO Server:350 - Started @6264ms
+2019-01-11 16:20:35  INFO MainService:55 - Shutdown thread before webservice getinstance
+2019-01-11 16:20:35  INFO ServerConnector:303 - Stopped ServerConnector@11398405{HTTP/1.1}{0.0.0.0:8096}
+2019-01-11 16:20:35  INFO ServerConnector:303 - Stopped ServerConnector@4cb6ab94{HTTP/1.1}{0.0.0.0:8097}
+2019-01-11 16:20:35  INFO ContextHandler:864 - Stopped o.e.j.s.ServletContextHandler@6c5340d5{/,null,UNAVAILABLE}
+2019-01-11 16:20:35  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@1205e6e9{/alert/admin,null,UNAVAILABLE}
+2019-01-11 16:20:52  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-11 16:20:52  INFO local:839 - local: Created a new connection
+2019-01-11 16:20:55  INFO log:178 - Logging initialized @2790ms
+2019-01-11 16:20:55  INFO WebService:68 - Thread MonitorService started at port 8096
+2019-01-11 16:20:55  INFO WebService:69 - Thread MonitorWebService started at port 8097
+2019-01-11 16:20:55  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-11 16:20:55  INFO local:839 - local: Created a new connection
+2019-01-11 16:20:55  INFO Server:301 - jetty-9.1.5.v20140505
+2019-01-11 16:20:55  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@1f93a588{/alert/admin,null,AVAILABLE}
+2019-01-11 16:20:55  INFO ContextHandler:747 - Started o.e.j.s.ServletContextHandler@5871de19{/,null,AVAILABLE}
+2019-01-11 16:20:55  INFO ServerConnector:266 - Started ServerConnector@42444ea7{HTTP/1.1}{0.0.0.0:8096}
+2019-01-11 16:20:55  INFO ServerConnector:266 - Started ServerConnector@5b3cb271{HTTP/1.1}{0.0.0.0:8097}
+2019-01-11 16:20:55  INFO Server:350 - Started @2932ms
+2019-01-11 16:20:59  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-11 16:20:59  INFO local:839 - local: Created a new connection
+2019-01-11 16:21:00  INFO MainService:55 - Shutdown thread before webservice getinstance
+2019-01-11 16:21:00  INFO ServerConnector:303 - Stopped ServerConnector@42444ea7{HTTP/1.1}{0.0.0.0:8096}
+2019-01-11 16:21:00  INFO ServerConnector:303 - Stopped ServerConnector@5b3cb271{HTTP/1.1}{0.0.0.0:8097}
+2019-01-11 16:21:00  INFO ContextHandler:864 - Stopped o.e.j.s.ServletContextHandler@5871de19{/,null,UNAVAILABLE}
+2019-01-11 16:21:00  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@1f93a588{/alert/admin,null,UNAVAILABLE}
+2019-01-11 16:21:52  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-11 16:21:52  INFO local:839 - local: Created a new connection
+2019-01-11 16:21:55  INFO log:178 - Logging initialized @2906ms
+2019-01-11 16:21:55  INFO WebService:68 - Thread MonitorService started at port 8096
+2019-01-11 16:21:55  INFO WebService:69 - Thread MonitorWebService started at port 8097
+2019-01-11 16:21:55  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-11 16:21:55  INFO local:839 - local: Created a new connection
+2019-01-11 16:21:55  INFO Server:301 - jetty-9.1.5.v20140505
+2019-01-11 16:21:55  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@586c70fb{/alert/admin,null,AVAILABLE}
+2019-01-11 16:21:55  INFO ContextHandler:747 - Started o.e.j.s.ServletContextHandler@81d4b38{/,null,AVAILABLE}
+2019-01-11 16:21:55  INFO ServerConnector:266 - Started ServerConnector@20fc5220{HTTP/1.1}{0.0.0.0:8096}
+2019-01-11 16:21:55  INFO ServerConnector:266 - Started ServerConnector@551bbaa2{HTTP/1.1}{0.0.0.0:8097}
+2019-01-11 16:21:55  INFO Server:350 - Started @3107ms
+2019-01-11 16:21:59  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-11 16:21:59  INFO local:839 - local: Created a new connection
+2019-01-11 16:22:00  INFO MainService:55 - Shutdown thread before webservice getinstance
+2019-01-11 16:22:00  INFO ServerConnector:303 - Stopped ServerConnector@20fc5220{HTTP/1.1}{0.0.0.0:8096}
+2019-01-11 16:22:00  INFO ServerConnector:303 - Stopped ServerConnector@551bbaa2{HTTP/1.1}{0.0.0.0:8097}
+2019-01-11 16:22:00  INFO ContextHandler:864 - Stopped o.e.j.s.ServletContextHandler@81d4b38{/,null,UNAVAILABLE}
+2019-01-11 16:22:00  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@586c70fb{/alert/admin,null,UNAVAILABLE}
+2019-01-11 16:22:35  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-11 16:22:35  INFO local:839 - local: Created a new connection
+2019-01-11 16:22:37  INFO log:178 - Logging initialized @2569ms
+2019-01-11 16:22:37  INFO WebService:68 - Thread MonitorService started at port 8096
+2019-01-11 16:22:37  INFO WebService:69 - Thread MonitorWebService started at port 8097
+2019-01-11 16:22:37  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-11 16:22:37  INFO local:839 - local: Created a new connection
+2019-01-11 16:22:37  INFO Server:301 - jetty-9.1.5.v20140505
+2019-01-11 16:22:37  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@cec8d76{/alert/admin,null,AVAILABLE}
+2019-01-11 16:22:37  INFO ContextHandler:747 - Started o.e.j.s.ServletContextHandler@5e26a6b2{/,null,AVAILABLE}
+2019-01-11 16:22:37  INFO ServerConnector:266 - Started ServerConnector@168ef1d7{HTTP/1.1}{0.0.0.0:8096}
+2019-01-11 16:22:37  INFO ServerConnector:266 - Started ServerConnector@7dc615f{HTTP/1.1}{0.0.0.0:8097}
+2019-01-11 16:22:37  INFO Server:350 - Started @2670ms
+2019-01-11 16:22:41  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-11 16:22:41  INFO local:839 - local: Created a new connection
+2019-01-11 16:22:42  INFO MainService:55 - Shutdown thread before webservice getinstance
+2019-01-11 16:22:42  INFO ServerConnector:303 - Stopped ServerConnector@168ef1d7{HTTP/1.1}{0.0.0.0:8096}
+2019-01-11 16:22:42  INFO ServerConnector:303 - Stopped ServerConnector@7dc615f{HTTP/1.1}{0.0.0.0:8097}
+2019-01-11 16:22:42  INFO ContextHandler:864 - Stopped o.e.j.s.ServletContextHandler@5e26a6b2{/,null,UNAVAILABLE}
+2019-01-11 16:22:42  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@cec8d76{/alert/admin,null,UNAVAILABLE}
+2019-01-11 16:23:13  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-11 16:23:14  INFO local:839 - local: Created a new connection
+2019-01-11 16:23:16 ERROR MainService:73 - Exception encountered during startup.
+java.lang.NoClassDefFoundError: com/gbc/al/service/WebService
+	at com.gbc.al.service.MainService.main(MainService.java:40)
+Caused by: java.lang.ClassNotFoundException: com.gbc.al.service.WebService
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 1 more
+2019-01-11 16:23:16 ERROR MainService:75 - Uncaught exception: com/gbc/al/service/WebService
+java.lang.NoClassDefFoundError: com/gbc/al/service/WebService
+	at com.gbc.al.service.MainService.main(MainService.java:40)
+Caused by: java.lang.ClassNotFoundException: com.gbc.al.service.WebService
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 1 more
+2019-01-11 16:24:49  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-11 16:24:50  INFO local:839 - local: Created a new connection
+2019-01-11 16:24:50  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-11 16:24:50  INFO local:839 - local: Created a new connection
+2019-01-11 16:24:50  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-11 16:24:50  INFO local:839 - local: Created a new connection
+2019-01-11 16:24:50  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-11 16:24:50  INFO local:839 - local: Created a new connection
+2019-01-11 16:24:50  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-11 16:24:50  INFO local:839 - local: Created a new connection
+2019-01-11 16:24:50  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-11 16:24:50  INFO local:839 - local: Created a new connection
+2019-01-11 16:24:52  INFO log:178 - Logging initialized @3685ms
+2019-01-11 16:24:52  INFO WebService:68 - Thread MonitorService started at port 8096
+2019-01-11 16:24:52  INFO WebService:69 - Thread MonitorWebService started at port 8097
+2019-01-11 16:24:52  INFO Server:301 - jetty-9.1.5.v20140505
+2019-01-11 16:24:52  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@5d432018{/alert/admin,null,AVAILABLE}
+2019-01-11 16:24:52  INFO ContextHandler:747 - Started o.e.j.s.ServletContextHandler@d8b808e{/,null,AVAILABLE}
+2019-01-11 16:24:52  INFO ServerConnector:266 - Started ServerConnector@37d234c1{HTTP/1.1}{0.0.0.0:8096}
+2019-01-11 16:24:52  INFO ServerConnector:266 - Started ServerConnector@6f57fe4e{HTTP/1.1}{0.0.0.0:8097}
+2019-01-11 16:24:52  INFO Server:350 - Started @3790ms
+2019-01-11 16:26:45  INFO MainService:55 - Shutdown thread before webservice getinstance
+2019-01-11 16:26:45  INFO ServerConnector:303 - Stopped ServerConnector@37d234c1{HTTP/1.1}{0.0.0.0:8096}
+2019-01-11 16:26:45  INFO ServerConnector:303 - Stopped ServerConnector@6f57fe4e{HTTP/1.1}{0.0.0.0:8097}
+2019-01-11 16:26:45  INFO ContextHandler:864 - Stopped o.e.j.s.ServletContextHandler@d8b808e{/,null,UNAVAILABLE}
+2019-01-11 16:26:45  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@5d432018{/alert/admin,null,UNAVAILABLE}
+2019-01-11 16:27:27  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-11 16:27:27  INFO local:839 - local: Created a new connection
+2019-01-11 16:27:29  INFO log:178 - Logging initialized @2452ms
+2019-01-11 16:27:29  INFO WebService:68 - Thread MonitorService started at port 8096
+2019-01-11 16:27:29  INFO WebService:69 - Thread MonitorWebService started at port 8097
+2019-01-11 16:27:29  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-11 16:27:29  INFO local:839 - local: Created a new connection
+2019-01-11 16:27:29  INFO Server:301 - jetty-9.1.5.v20140505
+2019-01-11 16:27:29  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@1a83ec6d{/alert/admin,null,AVAILABLE}
+2019-01-11 16:27:29  INFO ContextHandler:747 - Started o.e.j.s.ServletContextHandler@62c74cca{/,null,AVAILABLE}
+2019-01-11 16:27:29  INFO ServerConnector:266 - Started ServerConnector@75c654af{HTTP/1.1}{0.0.0.0:8096}
+2019-01-11 16:27:29  INFO ServerConnector:266 - Started ServerConnector@86fc7bc{HTTP/1.1}{0.0.0.0:8097}
+2019-01-11 16:27:29  INFO Server:350 - Started @2712ms
+2019-01-11 16:27:33  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-11 16:27:33  INFO local:839 - local: Created a new connection
+2019-01-11 16:27:34  INFO MainService:55 - Shutdown thread before webservice getinstance
+2019-01-11 16:27:34  INFO ServerConnector:303 - Stopped ServerConnector@75c654af{HTTP/1.1}{0.0.0.0:8096}
+2019-01-11 16:27:34  INFO ServerConnector:303 - Stopped ServerConnector@86fc7bc{HTTP/1.1}{0.0.0.0:8097}
+2019-01-11 16:27:34  INFO ContextHandler:864 - Stopped o.e.j.s.ServletContextHandler@62c74cca{/,null,UNAVAILABLE}
+2019-01-11 16:27:34  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@1a83ec6d{/alert/admin,null,UNAVAILABLE}
+2019-01-11 16:27:41  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-11 16:27:41  INFO local:839 - local: Created a new connection
+2019-01-11 16:27:43  INFO log:178 - Logging initialized @2835ms
+2019-01-11 16:27:43  INFO WebService:68 - Thread MonitorService started at port 8096
+2019-01-11 16:27:43  INFO WebService:69 - Thread MonitorWebService started at port 8097
+2019-01-11 16:27:43  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-11 16:27:43  INFO local:839 - local: Created a new connection
+2019-01-11 16:27:43  INFO Server:301 - jetty-9.1.5.v20140505
+2019-01-11 16:27:43  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@40362eb0{/alert/admin,null,AVAILABLE}
+2019-01-11 16:27:43  INFO ContextHandler:747 - Started o.e.j.s.ServletContextHandler@57c36a6{/,null,AVAILABLE}
+2019-01-11 16:27:43  INFO ServerConnector:266 - Started ServerConnector@1e43ef01{HTTP/1.1}{0.0.0.0:8096}
+2019-01-11 16:27:43  INFO ServerConnector:266 - Started ServerConnector@3d32b90e{HTTP/1.1}{0.0.0.0:8097}
+2019-01-11 16:27:43  INFO Server:350 - Started @2970ms
+2019-01-11 16:27:47  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-11 16:27:47  INFO local:839 - local: Created a new connection
+2019-01-11 16:27:49  INFO MainService:55 - Shutdown thread before webservice getinstance
+2019-01-11 16:27:49  INFO ServerConnector:303 - Stopped ServerConnector@1e43ef01{HTTP/1.1}{0.0.0.0:8096}
+2019-01-11 16:27:49  INFO ServerConnector:303 - Stopped ServerConnector@3d32b90e{HTTP/1.1}{0.0.0.0:8097}
+2019-01-11 16:27:49  INFO ContextHandler:864 - Stopped o.e.j.s.ServletContextHandler@57c36a6{/,null,UNAVAILABLE}
+2019-01-11 16:27:49  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@40362eb0{/alert/admin,null,UNAVAILABLE}
+2019-01-11 16:41:53  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-11 16:41:54  INFO local:839 - local: Created a new connection
+2019-01-11 16:41:56  INFO log:178 - Logging initialized @2358ms
+2019-01-11 16:41:56  INFO WebService:68 - Thread MonitorService started at port 8096
+2019-01-11 16:41:56  INFO WebService:69 - Thread MonitorWebService started at port 8097
+2019-01-11 16:41:56  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-11 16:41:56  INFO local:839 - local: Created a new connection
+2019-01-11 16:41:56  INFO Server:301 - jetty-9.1.5.v20140505
+2019-01-11 16:41:56  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@1f93a588{/alert/admin,null,AVAILABLE}
+2019-01-11 16:41:56  INFO ContextHandler:747 - Started o.e.j.s.ServletContextHandler@5871de19{/,null,AVAILABLE}
+2019-01-11 16:41:56  INFO ServerConnector:266 - Started ServerConnector@42444ea7{HTTP/1.1}{0.0.0.0:8096}
+2019-01-11 16:41:56  INFO ServerConnector:266 - Started ServerConnector@5b3cb271{HTTP/1.1}{0.0.0.0:8097}
+2019-01-11 16:41:56  INFO Server:350 - Started @2486ms
+2019-01-11 16:42:00  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-11 16:42:00  INFO local:839 - local: Created a new connection
+2019-01-11 16:42:01  INFO MainService:55 - Shutdown thread before webservice getinstance
+2019-01-11 16:42:01  INFO ServerConnector:303 - Stopped ServerConnector@42444ea7{HTTP/1.1}{0.0.0.0:8096}
+2019-01-11 16:42:01  INFO ServerConnector:303 - Stopped ServerConnector@5b3cb271{HTTP/1.1}{0.0.0.0:8097}
+2019-01-11 16:42:01  INFO ContextHandler:864 - Stopped o.e.j.s.ServletContextHandler@5871de19{/,null,UNAVAILABLE}
+2019-01-11 16:42:01  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@1f93a588{/alert/admin,null,UNAVAILABLE}
+2019-01-11 16:50:24  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-11 16:50:24  INFO local:839 - local: Created a new connection
+2019-01-11 16:50:26  INFO log:178 - Logging initialized @2115ms
+2019-01-11 16:50:26  INFO WebService:68 - Thread MonitorService started at port 8096
+2019-01-11 16:50:26  INFO WebService:69 - Thread MonitorWebService started at port 8097
+2019-01-11 16:50:26  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-11 16:50:26  INFO local:839 - local: Created a new connection
+2019-01-11 16:50:26  INFO Server:301 - jetty-9.1.5.v20140505
+2019-01-11 16:50:26  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@1f93a588{/alert/admin,null,AVAILABLE}
+2019-01-11 16:50:26  INFO ContextHandler:747 - Started o.e.j.s.ServletContextHandler@5871de19{/,null,AVAILABLE}
+2019-01-11 16:50:26  INFO ServerConnector:266 - Started ServerConnector@42444ea7{HTTP/1.1}{0.0.0.0:8096}
+2019-01-11 16:50:26  INFO ServerConnector:266 - Started ServerConnector@5b3cb271{HTTP/1.1}{0.0.0.0:8097}
+2019-01-11 16:50:26  INFO Server:350 - Started @2216ms
+2019-01-11 16:50:30  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-11 16:50:30  INFO local:839 - local: Created a new connection
+2019-01-11 16:50:31  INFO MainService:55 - Shutdown thread before webservice getinstance
+2019-01-11 16:50:31  INFO ServerConnector:303 - Stopped ServerConnector@42444ea7{HTTP/1.1}{0.0.0.0:8096}
+2019-01-11 16:50:31  INFO ServerConnector:303 - Stopped ServerConnector@5b3cb271{HTTP/1.1}{0.0.0.0:8097}
+2019-01-11 16:50:31  INFO ContextHandler:864 - Stopped o.e.j.s.ServletContextHandler@5871de19{/,null,UNAVAILABLE}
+2019-01-11 16:50:31  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@1f93a588{/alert/admin,null,UNAVAILABLE}
+2019-01-11 16:50:38  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-11 16:50:38  INFO local:839 - local: Created a new connection
+2019-01-11 16:50:40  INFO log:178 - Logging initialized @2499ms
+2019-01-11 16:50:40  INFO WebService:68 - Thread MonitorService started at port 8096
+2019-01-11 16:50:40  INFO WebService:69 - Thread MonitorWebService started at port 8097
+2019-01-11 16:50:40  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-11 16:50:40  INFO local:839 - local: Created a new connection
+2019-01-11 16:50:40  INFO Server:301 - jetty-9.1.5.v20140505
+2019-01-11 16:50:40  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@f8053b7{/alert/admin,null,AVAILABLE}
+2019-01-11 16:50:40  INFO ContextHandler:747 - Started o.e.j.s.ServletContextHandler@6ed451c1{/,null,AVAILABLE}
+2019-01-11 16:50:40  INFO ServerConnector:266 - Started ServerConnector@29fbd8a9{HTTP/1.1}{0.0.0.0:8096}
+2019-01-11 16:50:40  INFO ServerConnector:266 - Started ServerConnector@77791b13{HTTP/1.1}{0.0.0.0:8097}
+2019-01-11 16:50:40  INFO Server:350 - Started @2592ms
+2019-01-11 16:50:44  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-11 16:50:44  INFO local:839 - local: Created a new connection
+2019-01-11 16:50:45  INFO MainService:55 - Shutdown thread before webservice getinstance
+2019-01-11 16:50:45  INFO ServerConnector:303 - Stopped ServerConnector@29fbd8a9{HTTP/1.1}{0.0.0.0:8096}
+2019-01-11 16:50:45  INFO ServerConnector:303 - Stopped ServerConnector@77791b13{HTTP/1.1}{0.0.0.0:8097}
+2019-01-11 16:50:45  INFO ContextHandler:864 - Stopped o.e.j.s.ServletContextHandler@6ed451c1{/,null,UNAVAILABLE}
+2019-01-11 16:50:45  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@f8053b7{/alert/admin,null,UNAVAILABLE}
+2019-01-12 10:18:30  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-12 10:18:30  INFO local:839 - local: Created a new connection
+2019-01-12 10:18:33  INFO log:178 - Logging initialized @5122ms
+2019-01-12 10:18:33  INFO WebService:68 - Thread MonitorService started at port 8096
+2019-01-12 10:18:33  INFO WebService:69 - Thread MonitorWebService started at port 8097
+2019-01-12 10:18:33  INFO Server:301 - jetty-9.1.5.v20140505
+2019-01-12 10:18:33  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@514b36ed{/alert/admin,null,AVAILABLE}
+2019-01-12 10:18:33  INFO ContextHandler:747 - Started o.e.j.s.ServletContextHandler@10876d22{/,null,AVAILABLE}
+2019-01-12 10:18:33  INFO ServerConnector:266 - Started ServerConnector@28484487{HTTP/1.1}{0.0.0.0:8096}
+2019-01-12 10:18:33  INFO ServerConnector:266 - Started ServerConnector@614ea842{HTTP/1.1}{0.0.0.0:8097}
+2019-01-12 10:18:33  INFO Server:350 - Started @5380ms
+2019-01-12 10:20:35  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-12 10:20:35  INFO local:839 - local: Created a new connection
+2019-01-12 10:20:35  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-12 10:20:35  INFO local:839 - local: Created a new connection
+2019-01-12 10:20:35  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-12 10:20:35  INFO local:839 - local: Created a new connection
+2019-01-12 10:20:35  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-12 10:20:35  INFO local:839 - local: Created a new connection
+2019-01-12 10:20:35  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-12 10:20:35  INFO local:839 - local: Created a new connection
+2019-01-12 10:20:35  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-12 10:20:35  INFO local:839 - local: Created a new connection
+2019-01-12 10:20:39  INFO log:178 - Logging initialized @6024ms
+2019-01-12 10:20:39  INFO WebService:68 - Thread MonitorService started at port 8096
+2019-01-12 10:20:39  INFO WebService:69 - Thread MonitorWebService started at port 8097
+2019-01-12 10:20:39  INFO Server:301 - jetty-9.1.5.v20140505
+2019-01-12 10:20:39  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@3d1b5388{/alert/admin,null,AVAILABLE}
+2019-01-12 10:20:39  INFO ContextHandler:747 - Started o.e.j.s.ServletContextHandler@2a9815b8{/,null,AVAILABLE}
+2019-01-12 10:20:39  INFO ServerConnector:266 - Started ServerConnector@3c0831a3{HTTP/1.1}{0.0.0.0:8096}
+2019-01-12 10:20:39  INFO ServerConnector:266 - Started ServerConnector@189e1b7a{HTTP/1.1}{0.0.0.0:8097}
+2019-01-12 10:20:39  INFO Server:350 - Started @6165ms
+2019-01-12 10:21:05  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-12 10:21:06  INFO local:839 - local: Created a new connection
+2019-01-12 10:21:09  INFO log:178 - Logging initialized @4699ms
+2019-01-12 10:21:09  INFO WebService:68 - Thread MonitorService started at port 8096
+2019-01-12 10:21:09  INFO WebService:69 - Thread MonitorWebService started at port 8097
+2019-01-12 10:21:09  INFO Server:301 - jetty-9.1.5.v20140505
+2019-01-12 10:21:09  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@2f82252f{/auth/admin,null,AVAILABLE}
+2019-01-12 10:21:09  INFO ContextHandler:747 - Started o.e.j.s.ServletContextHandler@75bfbf9b{/,null,AVAILABLE}
+2019-01-12 10:21:09  INFO ServerConnector:266 - Started ServerConnector@2f6c7142{HTTP/1.1}{0.0.0.0:8096}
+2019-01-12 10:21:09  INFO ServerConnector:266 - Started ServerConnector@316c9adb{HTTP/1.1}{0.0.0.0:8097}
+2019-01-12 10:21:09  INFO Server:350 - Started @4843ms
+2019-01-12 11:19:05  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-12 11:19:05  INFO local:839 - local: Created a new connection
+2019-01-12 11:19:08  INFO log:178 - Logging initialized @2961ms
+2019-01-12 11:19:08  INFO WebService:68 - Thread MonitorService started at port 8096
+2019-01-12 11:19:08  INFO WebService:69 - Thread MonitorWebService started at port 8097
+2019-01-12 11:19:08  INFO Server:301 - jetty-9.1.5.v20140505
+2019-01-12 11:19:08  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@c45d512{/auth/admin,null,AVAILABLE}
+2019-01-12 11:19:08  INFO ContextHandler:747 - Started o.e.j.s.ServletContextHandler@486948bd{/,null,AVAILABLE}
+2019-01-12 11:19:08  INFO ServerConnector:266 - Started ServerConnector@2c78d806{HTTP/1.1}{0.0.0.0:8096}
+2019-01-12 11:19:08  INFO ServerConnector:266 - Started ServerConnector@de68f33{HTTP/1.1}{0.0.0.0:8097}
+2019-01-12 11:19:08  INFO Server:350 - Started @3136ms
+2019-01-12 11:46:59  INFO MainService:55 - Shutdown thread before webservice getinstance
+2019-01-12 11:46:59  INFO ServerConnector:303 - Stopped ServerConnector@2c78d806{HTTP/1.1}{0.0.0.0:8096}
+2019-01-12 11:46:59  INFO ServerConnector:303 - Stopped ServerConnector@de68f33{HTTP/1.1}{0.0.0.0:8097}
+2019-01-12 11:46:59  INFO ContextHandler:864 - Stopped o.e.j.s.ServletContextHandler@486948bd{/,null,UNAVAILABLE}
+2019-01-12 11:46:59  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@c45d512{/auth/admin,null,UNAVAILABLE}
+2019-01-14 23:52:38  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-14 23:52:38  INFO local:848 - local: Can't create a new connection for jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+java.sql.SQLException: No suitable driver found for jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+	at java.sql.DriverManager.getConnection(DriverManager.java:689)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at snaq.db.ConnectionPool.create(ConnectionPool.java:256)
+	at snaq.db.ConnectionPool.create(ConnectionPool.java:71)
+	at snaq.util.ObjectPool.checkOut(ObjectPool.java:377)
+	at snaq.util.ObjectPool.checkOut(ObjectPool.java:429)
+	at snaq.db.ConnectionPool.getConnection(ConnectionPool.java:425)
+	at com.gbc.al.database.MySqlFactory.getConnection(MySqlFactory.java:43)
+	at com.gbc.al.model.FingerModel.LoadUser(FingerModel.java:92)
+	at com.gbc.al.data.Data.LoadUser(Data.java:63)
+	at com.gbc.al.data.Data.Init(Data.java:53)
+	at com.gbc.al.service.MainService.main(MainService.java:38)
+2019-01-14 23:52:38 ERROR MySqlFactory:45 - getConnection : No suitable driver found for jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-14 23:52:38 ERROR MainService:73 - Exception encountered during startup.
+java.lang.NullPointerException
+	at com.gbc.al.model.FingerModel.LoadUser(FingerModel.java:97)
+	at com.gbc.al.data.Data.LoadUser(Data.java:63)
+	at com.gbc.al.data.Data.Init(Data.java:53)
+	at com.gbc.al.service.MainService.main(MainService.java:38)
+2019-01-14 23:52:38 ERROR MainService:75 - Uncaught exception: null
+java.lang.NullPointerException
+	at com.gbc.al.model.FingerModel.LoadUser(FingerModel.java:97)
+	at com.gbc.al.data.Data.LoadUser(Data.java:63)
+	at com.gbc.al.data.Data.Init(Data.java:53)
+	at com.gbc.al.service.MainService.main(MainService.java:38)
+2019-01-14 23:53:48  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-14 23:53:48  INFO local:848 - local: Can't create a new connection for jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+java.sql.SQLException: No suitable driver found for jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+	at java.sql.DriverManager.getConnection(DriverManager.java:689)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at snaq.db.ConnectionPool.create(ConnectionPool.java:256)
+	at snaq.db.ConnectionPool.create(ConnectionPool.java:71)
+	at snaq.util.ObjectPool.checkOut(ObjectPool.java:377)
+	at snaq.util.ObjectPool.checkOut(ObjectPool.java:429)
+	at snaq.db.ConnectionPool.getConnection(ConnectionPool.java:425)
+	at com.gbc.al.database.MySqlFactory.getConnection(MySqlFactory.java:43)
+	at com.gbc.al.model.FingerModel.LoadUser(FingerModel.java:92)
+	at com.gbc.al.data.Data.LoadUser(Data.java:63)
+	at com.gbc.al.data.Data.Init(Data.java:53)
+	at com.gbc.al.service.MainService.main(MainService.java:38)
+2019-01-14 23:53:48 ERROR MySqlFactory:45 - getConnection : No suitable driver found for jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-14 23:53:48 ERROR MainService:73 - Exception encountered during startup.
+java.lang.NullPointerException
+	at com.gbc.al.model.FingerModel.LoadUser(FingerModel.java:97)
+	at com.gbc.al.data.Data.LoadUser(Data.java:63)
+	at com.gbc.al.data.Data.Init(Data.java:53)
+	at com.gbc.al.service.MainService.main(MainService.java:38)
+2019-01-14 23:53:48 ERROR MainService:75 - Uncaught exception: null
+java.lang.NullPointerException
+	at com.gbc.al.model.FingerModel.LoadUser(FingerModel.java:97)
+	at com.gbc.al.data.Data.LoadUser(Data.java:63)
+	at com.gbc.al.data.Data.Init(Data.java:53)
+	at com.gbc.al.service.MainService.main(MainService.java:38)
+2019-01-14 23:55:08  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-14 23:55:08  INFO local:848 - local: Can't create a new connection for jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+java.sql.SQLException: No suitable driver found for jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+	at java.sql.DriverManager.getConnection(DriverManager.java:689)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at snaq.db.ConnectionPool.create(ConnectionPool.java:256)
+	at snaq.db.ConnectionPool.create(ConnectionPool.java:71)
+	at snaq.util.ObjectPool.checkOut(ObjectPool.java:377)
+	at snaq.util.ObjectPool.checkOut(ObjectPool.java:429)
+	at snaq.db.ConnectionPool.getConnection(ConnectionPool.java:425)
+	at com.gbc.al.database.MySqlFactory.getConnection(MySqlFactory.java:43)
+	at com.gbc.al.model.FingerModel.LoadUser(FingerModel.java:92)
+	at com.gbc.al.data.Data.LoadUser(Data.java:63)
+	at com.gbc.al.data.Data.Init(Data.java:53)
+	at com.gbc.al.service.MainService.main(MainService.java:38)
+2019-01-14 23:55:08 ERROR MySqlFactory:45 - getConnection : No suitable driver found for jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-14 23:55:08 ERROR MainService:73 - Exception encountered during startup.
+java.lang.NullPointerException
+	at com.gbc.al.model.FingerModel.LoadUser(FingerModel.java:97)
+	at com.gbc.al.data.Data.LoadUser(Data.java:63)
+	at com.gbc.al.data.Data.Init(Data.java:53)
+	at com.gbc.al.service.MainService.main(MainService.java:38)
+2019-01-14 23:55:08 ERROR MainService:75 - Uncaught exception: null
+java.lang.NullPointerException
+	at com.gbc.al.model.FingerModel.LoadUser(FingerModel.java:97)
+	at com.gbc.al.data.Data.LoadUser(Data.java:63)
+	at com.gbc.al.data.Data.Init(Data.java:53)
+	at com.gbc.al.service.MainService.main(MainService.java:38)
+2019-01-14 23:55:20  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-14 23:55:20  INFO local:848 - local: Can't create a new connection for jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+java.sql.SQLException: No suitable driver found for jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+	at java.sql.DriverManager.getConnection(DriverManager.java:689)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at snaq.db.ConnectionPool.create(ConnectionPool.java:256)
+	at snaq.db.ConnectionPool.create(ConnectionPool.java:71)
+	at snaq.util.ObjectPool.checkOut(ObjectPool.java:377)
+	at snaq.util.ObjectPool.checkOut(ObjectPool.java:429)
+	at snaq.db.ConnectionPool.getConnection(ConnectionPool.java:425)
+	at com.gbc.al.database.MySqlFactory.getConnection(MySqlFactory.java:43)
+	at com.gbc.al.model.FingerModel.LoadUser(FingerModel.java:92)
+	at com.gbc.al.data.Data.LoadUser(Data.java:63)
+	at com.gbc.al.data.Data.Init(Data.java:53)
+	at com.gbc.al.service.MainService.main(MainService.java:38)
+2019-01-14 23:55:20 ERROR MySqlFactory:45 - getConnection : No suitable driver found for jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-14 23:55:20 ERROR MainService:73 - Exception encountered during startup.
+java.lang.NullPointerException
+	at com.gbc.al.model.FingerModel.LoadUser(FingerModel.java:97)
+	at com.gbc.al.data.Data.LoadUser(Data.java:63)
+	at com.gbc.al.data.Data.Init(Data.java:53)
+	at com.gbc.al.service.MainService.main(MainService.java:38)
+2019-01-14 23:55:20 ERROR MainService:75 - Uncaught exception: null
+java.lang.NullPointerException
+	at com.gbc.al.model.FingerModel.LoadUser(FingerModel.java:97)
+	at com.gbc.al.data.Data.LoadUser(Data.java:63)
+	at com.gbc.al.data.Data.Init(Data.java:53)
+	at com.gbc.al.service.MainService.main(MainService.java:38)
+2019-01-14 23:56:38  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-14 23:56:38  INFO local:848 - local: Can't create a new connection for jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+java.sql.SQLException: No suitable driver found for jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+	at java.sql.DriverManager.getConnection(DriverManager.java:689)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at snaq.db.ConnectionPool.create(ConnectionPool.java:256)
+	at snaq.db.ConnectionPool.create(ConnectionPool.java:71)
+	at snaq.util.ObjectPool.checkOut(ObjectPool.java:377)
+	at snaq.util.ObjectPool.checkOut(ObjectPool.java:429)
+	at snaq.db.ConnectionPool.getConnection(ConnectionPool.java:425)
+	at com.gbc.al.database.MySqlFactory.getConnection(MySqlFactory.java:43)
+	at com.gbc.al.model.FingerModel.LoadUser(FingerModel.java:92)
+	at com.gbc.al.data.Data.LoadUser(Data.java:63)
+	at com.gbc.al.data.Data.Init(Data.java:53)
+	at com.gbc.al.service.MainService.main(MainService.java:38)
+2019-01-14 23:56:38 ERROR MySqlFactory:45 - getConnection : No suitable driver found for jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-14 23:56:38 ERROR MainService:73 - Exception encountered during startup.
+java.lang.NullPointerException
+	at com.gbc.al.model.FingerModel.LoadUser(FingerModel.java:97)
+	at com.gbc.al.data.Data.LoadUser(Data.java:63)
+	at com.gbc.al.data.Data.Init(Data.java:53)
+	at com.gbc.al.service.MainService.main(MainService.java:38)
+2019-01-14 23:56:38 ERROR MainService:75 - Uncaught exception: null
+java.lang.NullPointerException
+	at com.gbc.al.model.FingerModel.LoadUser(FingerModel.java:97)
+	at com.gbc.al.data.Data.LoadUser(Data.java:63)
+	at com.gbc.al.data.Data.Init(Data.java:53)
+	at com.gbc.al.service.MainService.main(MainService.java:38)
+2019-01-14 23:59:36  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://172.17.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-01-14 23:59:36  INFO local:839 - local: Created a new connection
+2019-01-14 23:59:39  INFO log:178 - Logging initialized @5926ms
+2019-01-14 23:59:39  INFO WebService:68 - Thread MonitorService started at port 8096
+2019-01-14 23:59:39  INFO WebService:69 - Thread MonitorWebService started at port 8097
+2019-01-14 23:59:39  INFO Server:301 - jetty-9.1.5.v20140505
+2019-01-14 23:59:39  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@681d4415{/auth/admin,null,AVAILABLE}
+2019-01-14 23:59:39  INFO ContextHandler:747 - Started o.e.j.s.ServletContextHandler@23502f2d{/,null,AVAILABLE}
+2019-01-14 23:59:39  INFO ServerConnector:266 - Started ServerConnector@725907b7{HTTP/1.1}{0.0.0.0:8096}
+2019-01-14 23:59:39  INFO ServerConnector:266 - Started ServerConnector@36412b6e{HTTP/1.1}{0.0.0.0:8097}
+2019-01-14 23:59:39  INFO Server:350 - Started @6165ms
+2019-02-11 20:58:37  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-11 20:58:37  INFO local:839 - local: Created a new connection
+2019-02-11 20:58:39  INFO log:178 - Logging initialized @2670ms
+2019-02-11 20:58:39  INFO WebService:68 - Thread MonitorService started at port 8096
+2019-02-11 20:58:39  INFO WebService:69 - Thread MonitorWebService started at port 8097
+2019-02-11 20:58:39  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-11 20:58:39  INFO local:839 - local: Created a new connection
+2019-02-11 20:58:39  INFO Server:301 - jetty-9.1.5.v20140505
+2019-02-11 20:58:39  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@f8053b7{/auth/admin,null,AVAILABLE}
+2019-02-11 20:58:39  INFO ContextHandler:747 - Started o.e.j.s.ServletContextHandler@6ed451c1{/,null,AVAILABLE}
+2019-02-11 20:58:39  INFO ServerConnector:266 - Started ServerConnector@29fbd8a9{HTTP/1.1}{0.0.0.0:8096}
+2019-02-11 20:58:39  INFO ServerConnector:266 - Started ServerConnector@77791b13{HTTP/1.1}{0.0.0.0:8097}
+2019-02-11 20:58:39  INFO Server:350 - Started @2787ms
+2019-02-11 20:58:53  INFO ServerConnector:303 - Stopped ServerConnector@29fbd8a9{HTTP/1.1}{0.0.0.0:8096}
+2019-02-11 20:58:53  INFO ServerConnector:303 - Stopped ServerConnector@77791b13{HTTP/1.1}{0.0.0.0:8097}
+2019-02-11 20:58:53  INFO ContextHandler:864 - Stopped o.e.j.s.ServletContextHandler@6ed451c1{/,null,UNAVAILABLE}
+2019-02-11 20:58:53  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@f8053b7{/auth/admin,null,UNAVAILABLE}
+2019-02-11 20:58:57  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-11 20:58:58  INFO local:839 - local: Created a new connection
+2019-02-11 20:59:00  INFO log:178 - Logging initialized @2437ms
+2019-02-11 20:59:00  INFO WebService:68 - Thread MonitorService started at port 8096
+2019-02-11 20:59:00  INFO WebService:69 - Thread MonitorWebService started at port 8097
+2019-02-11 20:59:00  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-11 20:59:00  INFO local:839 - local: Created a new connection
+2019-02-11 20:59:00  INFO Server:301 - jetty-9.1.5.v20140505
+2019-02-11 20:59:00  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@586c70fb{/auth/admin,null,AVAILABLE}
+2019-02-11 20:59:00  INFO ContextHandler:747 - Started o.e.j.s.ServletContextHandler@81d4b38{/,null,AVAILABLE}
+2019-02-11 20:59:00  INFO ServerConnector:266 - Started ServerConnector@551bbaa2{HTTP/1.1}{0.0.0.0:8096}
+2019-02-11 20:59:00  INFO ServerConnector:266 - Started ServerConnector@7ad653cf{HTTP/1.1}{0.0.0.0:8097}
+2019-02-11 20:59:00  INFO Server:350 - Started @2570ms
+2019-02-11 21:11:53  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-11 21:11:53  INFO local:839 - local: Created a new connection
+2019-02-11 21:11:55  INFO log:178 - Logging initialized @2308ms
+2019-02-11 21:11:55  INFO WebService:68 - Thread MonitorService started at port 8096
+2019-02-11 21:11:55  INFO WebService:69 - Thread MonitorWebService started at port 8097
+2019-02-11 21:11:55  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-11 21:11:55  INFO local:839 - local: Created a new connection
+2019-02-11 21:11:55  INFO Server:301 - jetty-9.1.5.v20140505
+2019-02-11 21:11:55  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@305c6f96{/auth/admin,null,AVAILABLE}
+2019-02-11 21:11:55  INFO ContextHandler:747 - Started o.e.j.s.ServletContextHandler@391fe3e7{/,null,AVAILABLE}
+2019-02-11 21:11:55  WARN AbstractLifeCycle:210 - FAILED ServerConnector@46bb7dd6{HTTP/1.1}{0.0.0.0:8096}: java.net.BindException: Address already in use
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:279)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:218)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:337)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.gbc.al.service.WebService.run(WebService.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+2019-02-11 21:11:55  WARN AbstractLifeCycle:210 - FAILED ServerConnector@2d7494f2{HTTP/1.1}{0.0.0.0:8097}: java.net.BindException: Address already in use
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:279)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:218)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:337)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.gbc.al.service.WebService.run(WebService.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+2019-02-11 21:11:55  WARN AbstractLifeCycle:210 - FAILED org.eclipse.jetty.server.Server@76c67833: MultiException[java.net.BindException: Address already in use, java.net.BindException: Address already in use]
+MultiException[java.net.BindException: Address already in use, java.net.BindException: Address already in use]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:303)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.gbc.al.service.WebService.run(WebService.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:279)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:218)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:337)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.gbc.al.service.WebService.run(WebService.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:279)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:218)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:337)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.gbc.al.service.WebService.run(WebService.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+2019-02-11 21:11:55 ERROR WebService:116 - Cannot start WebService: Multiple exceptions
+2019-02-11 21:11:55  INFO ServerConnector:303 - Stopped ServerConnector@46bb7dd6{HTTP/1.1}{0.0.0.0:8096}
+2019-02-11 21:11:55  INFO ServerConnector:303 - Stopped ServerConnector@2d7494f2{HTTP/1.1}{0.0.0.0:8097}
+2019-02-11 21:11:55  INFO ContextHandler:864 - Stopped o.e.j.s.ServletContextHandler@391fe3e7{/,null,UNAVAILABLE}
+2019-02-11 21:11:55  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@305c6f96{/auth/admin,null,UNAVAILABLE}
+2019-02-11 21:13:43  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-11 21:13:43  INFO local:839 - local: Created a new connection
+2019-02-11 21:13:45  INFO log:178 - Logging initialized @2618ms
+2019-02-11 21:13:45  INFO WebService:68 - Thread MonitorService started at port 8096
+2019-02-11 21:13:45  INFO WebService:69 - Thread MonitorWebService started at port 8097
+2019-02-11 21:13:45  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-11 21:13:45  INFO local:839 - local: Created a new connection
+2019-02-11 21:13:45  INFO Server:301 - jetty-9.1.5.v20140505
+2019-02-11 21:13:45  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@6627219c{/auth/admin,null,AVAILABLE}
+2019-02-11 21:13:45  INFO ContextHandler:747 - Started o.e.j.s.ServletContextHandler@6419a0c4{/,null,AVAILABLE}
+2019-02-11 21:13:45  WARN AbstractLifeCycle:210 - FAILED ServerConnector@348c87a5{HTTP/1.1}{0.0.0.0:8096}: java.net.BindException: Address already in use
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:279)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:218)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:337)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.gbc.al.service.WebService.run(WebService.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+2019-02-11 21:13:45  WARN AbstractLifeCycle:210 - FAILED ServerConnector@782d5c61{HTTP/1.1}{0.0.0.0:8097}: java.net.BindException: Address already in use
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:279)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:218)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:337)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.gbc.al.service.WebService.run(WebService.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+2019-02-11 21:13:45  WARN AbstractLifeCycle:210 - FAILED org.eclipse.jetty.server.Server@a3d7b58: MultiException[java.net.BindException: Address already in use, java.net.BindException: Address already in use]
+MultiException[java.net.BindException: Address already in use, java.net.BindException: Address already in use]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:303)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.gbc.al.service.WebService.run(WebService.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:279)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:218)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:337)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.gbc.al.service.WebService.run(WebService.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:279)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:218)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:337)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.gbc.al.service.WebService.run(WebService.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+2019-02-11 21:13:45 ERROR WebService:116 - Cannot start WebService: Multiple exceptions
+2019-02-11 21:13:45  INFO ServerConnector:303 - Stopped ServerConnector@348c87a5{HTTP/1.1}{0.0.0.0:8096}
+2019-02-11 21:13:45  INFO ServerConnector:303 - Stopped ServerConnector@782d5c61{HTTP/1.1}{0.0.0.0:8097}
+2019-02-11 21:13:45  INFO ContextHandler:864 - Stopped o.e.j.s.ServletContextHandler@6419a0c4{/,null,UNAVAILABLE}
+2019-02-11 21:13:45  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@6627219c{/auth/admin,null,UNAVAILABLE}
+2019-02-11 21:15:02  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-11 21:15:02  INFO local:839 - local: Created a new connection
+2019-02-11 21:15:04  INFO log:178 - Logging initialized @2301ms
+2019-02-11 21:15:04  INFO WebService:68 - Thread MonitorService started at port 8096
+2019-02-11 21:15:04  INFO WebService:69 - Thread MonitorWebService started at port 8097
+2019-02-11 21:15:04  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-11 21:15:04  INFO local:839 - local: Created a new connection
+2019-02-11 21:15:04  INFO Server:301 - jetty-9.1.5.v20140505
+2019-02-11 21:15:04  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@586c70fb{/auth/admin,null,AVAILABLE}
+2019-02-11 21:15:04  INFO ContextHandler:747 - Started o.e.j.s.ServletContextHandler@81d4b38{/,null,AVAILABLE}
+2019-02-11 21:15:04  WARN AbstractLifeCycle:210 - FAILED ServerConnector@254be27b{HTTP/1.1}{0.0.0.0:8096}: java.net.BindException: Address already in use
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:279)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:218)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:337)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.gbc.al.service.WebService.run(WebService.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+2019-02-11 21:15:04  WARN AbstractLifeCycle:210 - FAILED ServerConnector@2d5e94df{HTTP/1.1}{0.0.0.0:8097}: java.net.BindException: Address already in use
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:279)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:218)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:337)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.gbc.al.service.WebService.run(WebService.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+2019-02-11 21:15:04  WARN AbstractLifeCycle:210 - FAILED org.eclipse.jetty.server.Server@5a975733: MultiException[java.net.BindException: Address already in use, java.net.BindException: Address already in use]
+MultiException[java.net.BindException: Address already in use, java.net.BindException: Address already in use]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:303)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.gbc.al.service.WebService.run(WebService.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:279)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:218)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:337)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.gbc.al.service.WebService.run(WebService.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:279)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:218)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:337)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.gbc.al.service.WebService.run(WebService.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+2019-02-11 21:15:04 ERROR WebService:116 - Cannot start WebService: Multiple exceptions
+2019-02-11 21:15:04  INFO ServerConnector:303 - Stopped ServerConnector@254be27b{HTTP/1.1}{0.0.0.0:8096}
+2019-02-11 21:15:04  INFO ServerConnector:303 - Stopped ServerConnector@2d5e94df{HTTP/1.1}{0.0.0.0:8097}
+2019-02-11 21:15:04  INFO ContextHandler:864 - Stopped o.e.j.s.ServletContextHandler@81d4b38{/,null,UNAVAILABLE}
+2019-02-11 21:15:04  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@586c70fb{/auth/admin,null,UNAVAILABLE}
+2019-02-11 21:26:46  INFO ServerConnector:303 - Stopped ServerConnector@551bbaa2{HTTP/1.1}{0.0.0.0:8096}
+2019-02-11 21:26:46  INFO ServerConnector:303 - Stopped ServerConnector@7ad653cf{HTTP/1.1}{0.0.0.0:8097}
+2019-02-11 21:26:46  INFO ContextHandler:864 - Stopped o.e.j.s.ServletContextHandler@81d4b38{/,null,UNAVAILABLE}
+2019-02-11 21:26:46  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@586c70fb{/auth/admin,null,UNAVAILABLE}
+2019-02-11 21:28:02  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-11 21:28:02  INFO local:839 - local: Created a new connection
+2019-02-11 21:28:04  INFO log:178 - Logging initialized @2486ms
+2019-02-11 21:28:04  INFO WebService:68 - Thread MonitorService started at port 8096
+2019-02-11 21:28:04  INFO WebService:69 - Thread MonitorWebService started at port 8097
+2019-02-11 21:28:04  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-11 21:28:04  INFO local:839 - local: Created a new connection
+2019-02-11 21:28:04  INFO Server:301 - jetty-9.1.5.v20140505
+2019-02-11 21:28:04  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@1a83ec6d{/auth/admin,null,AVAILABLE}
+2019-02-11 21:28:04  INFO ContextHandler:747 - Started o.e.j.s.ServletContextHandler@62c74cca{/,null,AVAILABLE}
+2019-02-11 21:28:05  INFO ServerConnector:266 - Started ServerConnector@109c345b{HTTP/1.1}{0.0.0.0:8096}
+2019-02-11 21:28:05  INFO ServerConnector:266 - Started ServerConnector@75c654af{HTTP/1.1}{0.0.0.0:8097}
+2019-02-11 21:28:05  INFO Server:350 - Started @2570ms
+2019-02-11 21:28:25  INFO ServerConnector:303 - Stopped ServerConnector@109c345b{HTTP/1.1}{0.0.0.0:8096}
+2019-02-11 21:28:25  INFO ServerConnector:303 - Stopped ServerConnector@75c654af{HTTP/1.1}{0.0.0.0:8097}
+2019-02-11 21:28:25  INFO ContextHandler:864 - Stopped o.e.j.s.ServletContextHandler@62c74cca{/,null,UNAVAILABLE}
+2019-02-11 21:28:25  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@1a83ec6d{/auth/admin,null,UNAVAILABLE}
+2019-02-11 21:38:18  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-11 21:38:19  INFO local:839 - local: Created a new connection
+2019-02-11 21:38:21  INFO log:178 - Logging initialized @6085ms
+2019-02-11 21:38:21  INFO WebService:68 - Thread MonitorService started at port 8096
+2019-02-11 21:38:21  INFO WebService:69 - Thread MonitorWebService started at port 8097
+2019-02-11 21:38:21  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-11 21:38:21  INFO local:839 - local: Created a new connection
+2019-02-11 21:38:22  INFO Server:301 - jetty-9.1.5.v20140505
+2019-02-11 21:38:22  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@681d4415{/auth/admin,null,AVAILABLE}
+2019-02-11 21:38:22  INFO ContextHandler:747 - Started o.e.j.s.ServletContextHandler@23502f2d{/,null,AVAILABLE}
+2019-02-11 21:38:22  INFO ServerConnector:266 - Started ServerConnector@c82cb45{HTTP/1.1}{0.0.0.0:8096}
+2019-02-11 21:38:22  INFO ServerConnector:266 - Started ServerConnector@14c343a5{HTTP/1.1}{0.0.0.0:8097}
+2019-02-11 21:38:22  INFO Server:350 - Started @6419ms
+2019-02-11 21:40:10  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-11 21:40:10  INFO local:839 - local: Created a new connection
+2019-02-11 21:42:58  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-11 21:42:58  INFO local:839 - local: Created a new connection
+2019-02-11 21:44:20  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-11 21:44:20  INFO local:839 - local: Created a new connection
+2019-02-11 21:44:51  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-11 21:44:51  INFO local:839 - local: Created a new connection
+2019-02-11 21:45:32  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-11 21:45:32  INFO local:839 - local: Created a new connection
+2019-02-11 21:46:29  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-11 21:46:29  INFO local:839 - local: Created a new connection
+2019-02-11 21:47:49  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-11 21:47:49  INFO local:839 - local: Created a new connection
+2019-02-11 21:49:03  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-11 21:49:03  INFO local:839 - local: Created a new connection
+2019-02-11 21:49:52  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-11 21:49:53  INFO local:839 - local: Created a new connection
+2019-02-11 21:49:53  INFO log:178 - Logging initialized @3142ms
+2019-02-11 21:49:53  INFO WebService:68 - Thread MonitorService started at port 8096
+2019-02-11 21:49:53  INFO WebService:69 - Thread MonitorWebService started at port 8097
+2019-02-11 21:49:53  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-11 21:49:53  INFO local:839 - local: Created a new connection
+2019-02-11 21:49:53  INFO Server:301 - jetty-9.1.5.v20140505
+2019-02-11 21:49:53  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@3eef5d78{/auth/admin,null,AVAILABLE}
+2019-02-11 21:49:53  INFO ContextHandler:747 - Started o.e.j.s.ServletContextHandler@2e7eec9f{/,null,AVAILABLE}
+2019-02-11 21:49:53  INFO ServerConnector:266 - Started ServerConnector@5e276e86{HTTP/1.1}{0.0.0.0:8096}
+2019-02-11 21:49:53  INFO ServerConnector:266 - Started ServerConnector@59e20254{HTTP/1.1}{0.0.0.0:8097}
+2019-02-11 21:49:53  INFO Server:350 - Started @3382ms
+2019-02-11 21:50:52  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-11 21:50:52  INFO local:839 - local: Created a new connection
+2019-02-11 21:51:11  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-11 21:51:11  INFO local:839 - local: Created a new connection
+2019-02-11 21:51:37  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-11 21:51:37  INFO local:839 - local: Created a new connection
+2019-02-11 21:51:50  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-11 21:51:50  INFO local:839 - local: Created a new connection
+2019-02-11 21:52:11  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-11 21:52:11  INFO local:839 - local: Created a new connection
+2019-02-11 21:52:32  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-11 21:52:32  INFO local:839 - local: Created a new connection
+2019-02-11 21:53:16  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-11 21:53:16  INFO local:839 - local: Created a new connection
+2019-02-11 21:54:58  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-11 21:54:58  INFO local:839 - local: Created a new connection
+2019-02-11 22:07:04  INFO ServerConnector:303 - Stopped ServerConnector@5e276e86{HTTP/1.1}{0.0.0.0:8096}
+2019-02-11 22:07:04  INFO ServerConnector:303 - Stopped ServerConnector@59e20254{HTTP/1.1}{0.0.0.0:8097}
+2019-02-11 22:07:04  INFO ContextHandler:864 - Stopped o.e.j.s.ServletContextHandler@2e7eec9f{/,null,UNAVAILABLE}
+2019-02-11 22:07:04  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@3eef5d78{/auth/admin,null,UNAVAILABLE}
+2019-02-11 23:58:28  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-11 23:58:29  INFO local:839 - local: Created a new connection
+2019-02-11 23:58:30  INFO log:178 - Logging initialized @4523ms
+2019-02-11 23:58:30  INFO WebService:68 - Thread MonitorService started at port 8096
+2019-02-11 23:58:30  INFO WebService:69 - Thread MonitorWebService started at port 8097
+2019-02-11 23:58:30  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-11 23:58:30  INFO local:839 - local: Created a new connection
+2019-02-11 23:58:30  INFO Server:301 - jetty-9.1.5.v20140505
+2019-02-11 23:58:30  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@740b6265{/auth/admin,null,AVAILABLE}
+2019-02-11 23:58:30  INFO ContextHandler:747 - Started o.e.j.s.ServletContextHandler@434835a7{/,null,AVAILABLE}
+2019-02-11 23:58:30  INFO ServerConnector:266 - Started ServerConnector@1f7b25ea{HTTP/1.1}{0.0.0.0:8096}
+2019-02-11 23:58:30  INFO ServerConnector:266 - Started ServerConnector@7cf12a6f{HTTP/1.1}{0.0.0.0:8097}
+2019-02-11 23:58:30  INFO Server:350 - Started @4864ms
+2019-02-11 23:58:35  INFO ServerConnector:303 - Stopped ServerConnector@1f7b25ea{HTTP/1.1}{0.0.0.0:8096}
+2019-02-11 23:58:35  INFO ServerConnector:303 - Stopped ServerConnector@7cf12a6f{HTTP/1.1}{0.0.0.0:8097}
+2019-02-11 23:58:35  INFO ContextHandler:864 - Stopped o.e.j.s.ServletContextHandler@434835a7{/,null,UNAVAILABLE}
+2019-02-11 23:58:35  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@740b6265{/auth/admin,null,UNAVAILABLE}
+2019-02-11 23:58:46  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-11 23:58:46  INFO local:839 - local: Created a new connection
+2019-02-11 23:58:47  INFO log:178 - Logging initialized @3577ms
+2019-02-11 23:58:47  INFO WebService:68 - Thread MonitorService started at port 8096
+2019-02-11 23:58:47  INFO WebService:69 - Thread MonitorWebService started at port 8097
+2019-02-11 23:58:47  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-11 23:58:47  INFO local:839 - local: Created a new connection
+2019-02-11 23:58:48  INFO Server:301 - jetty-9.1.5.v20140505
+2019-02-11 23:58:48  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@14acd360{/auth/admin,null,AVAILABLE}
+2019-02-11 23:58:48  INFO ContextHandler:747 - Started o.e.j.s.ServletContextHandler@7413cdd4{/,null,AVAILABLE}
+2019-02-11 23:58:48  INFO ServerConnector:266 - Started ServerConnector@4f5a51e8{HTTP/1.1}{0.0.0.0:8096}
+2019-02-11 23:58:48  INFO ServerConnector:266 - Started ServerConnector@4da8791b{HTTP/1.1}{0.0.0.0:8097}
+2019-02-11 23:58:48  INFO Server:350 - Started @3892ms
+2019-02-11 23:58:53  INFO ServerConnector:303 - Stopped ServerConnector@4f5a51e8{HTTP/1.1}{0.0.0.0:8096}
+2019-02-11 23:58:53  INFO ServerConnector:303 - Stopped ServerConnector@4da8791b{HTTP/1.1}{0.0.0.0:8097}
+2019-02-11 23:58:53  INFO ContextHandler:864 - Stopped o.e.j.s.ServletContextHandler@7413cdd4{/,null,UNAVAILABLE}
+2019-02-11 23:58:53  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@14acd360{/auth/admin,null,UNAVAILABLE}
+2019-02-12 00:02:32  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-12 00:02:32  INFO local:839 - local: Created a new connection
+2019-02-12 00:02:33  INFO log:178 - Logging initialized @2765ms
+2019-02-12 00:02:33  INFO WebService:68 - Thread MonitorService started at port 8096
+2019-02-12 00:02:33  INFO WebService:69 - Thread MonitorWebService started at port 8097
+2019-02-12 00:02:33  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-12 00:02:33  INFO local:839 - local: Created a new connection
+2019-02-12 00:02:33  INFO Server:301 - jetty-9.1.5.v20140505
+2019-02-12 00:02:33  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@409cacb{/auth/admin,null,AVAILABLE}
+2019-02-12 00:02:33  INFO ContextHandler:747 - Started o.e.j.s.ServletContextHandler@7cf57ae5{/,null,AVAILABLE}
+2019-02-12 00:02:33  INFO ServerConnector:266 - Started ServerConnector@5df50b8{HTTP/1.1}{0.0.0.0:8096}
+2019-02-12 00:02:33  INFO ServerConnector:266 - Started ServerConnector@6a9e884d{HTTP/1.1}{0.0.0.0:8097}
+2019-02-12 00:02:33  INFO Server:350 - Started @3016ms
+2019-02-12 00:02:38  INFO ServerConnector:303 - Stopped ServerConnector@5df50b8{HTTP/1.1}{0.0.0.0:8096}
+2019-02-12 00:02:38  INFO ServerConnector:303 - Stopped ServerConnector@6a9e884d{HTTP/1.1}{0.0.0.0:8097}
+2019-02-12 00:02:38  INFO ContextHandler:864 - Stopped o.e.j.s.ServletContextHandler@7cf57ae5{/,null,UNAVAILABLE}
+2019-02-12 00:02:38  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@409cacb{/auth/admin,null,UNAVAILABLE}
+2019-02-12 00:03:28  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-12 00:03:28  INFO local:839 - local: Created a new connection
+2019-02-12 00:03:29  INFO log:178 - Logging initialized @3135ms
+2019-02-12 00:03:29  INFO WebService:68 - Thread MonitorService started at port 8096
+2019-02-12 00:03:29  INFO WebService:69 - Thread MonitorWebService started at port 8097
+2019-02-12 00:03:29  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-12 00:03:29  INFO local:839 - local: Created a new connection
+2019-02-12 00:03:30  INFO Server:301 - jetty-9.1.5.v20140505
+2019-02-12 00:03:30  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@4629ecff{/auth/admin,null,AVAILABLE}
+2019-02-12 00:03:30  INFO ContextHandler:747 - Started o.e.j.s.ServletContextHandler@7aa80e0f{/,null,AVAILABLE}
+2019-02-12 00:03:30  INFO ServerConnector:266 - Started ServerConnector@4f18dd3d{HTTP/1.1}{0.0.0.0:8096}
+2019-02-12 00:03:30  INFO ServerConnector:266 - Started ServerConnector@4a2bf35e{HTTP/1.1}{0.0.0.0:8097}
+2019-02-12 00:03:30  INFO Server:350 - Started @3464ms
+2019-02-12 00:03:50  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-12 00:03:50  INFO local:839 - local: Created a new connection
+2019-02-20 21:51:05  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-20 21:51:05  INFO local:839 - local: Created a new connection
+2019-02-20 21:51:06  INFO log:178 - Logging initialized @6124ms
+2019-02-20 21:51:06  INFO WebService:68 - Thread MonitorService started at port 8096
+2019-02-20 21:51:06  INFO WebService:69 - Thread MonitorWebService started at port 8097
+2019-02-20 21:51:06  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-20 21:51:06  INFO local:839 - local: Created a new connection
+2019-02-20 21:51:07  INFO Server:301 - jetty-9.1.5.v20140505
+2019-02-20 21:51:07  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@2fc404cd{/auth/admin,null,AVAILABLE}
+2019-02-20 21:51:07  INFO ContextHandler:747 - Started o.e.j.s.ServletContextHandler@3e11da98{/,null,AVAILABLE}
+2019-02-20 21:51:07  INFO ServerConnector:266 - Started ServerConnector@d1a6dad{HTTP/1.1}{0.0.0.0:8096}
+2019-02-20 21:51:07  INFO ServerConnector:266 - Started ServerConnector@2d4cb086{HTTP/1.1}{0.0.0.0:8097}
+2019-02-20 21:51:07  INFO Server:350 - Started @6577ms
+2019-02-20 21:51:12  INFO ServerConnector:303 - Stopped ServerConnector@d1a6dad{HTTP/1.1}{0.0.0.0:8096}
+2019-02-20 21:51:12  INFO ServerConnector:303 - Stopped ServerConnector@2d4cb086{HTTP/1.1}{0.0.0.0:8097}
+2019-02-20 21:51:12  INFO ContextHandler:864 - Stopped o.e.j.s.ServletContextHandler@3e11da98{/,null,UNAVAILABLE}
+2019-02-20 21:51:12  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@2fc404cd{/auth/admin,null,UNAVAILABLE}
+2019-02-20 21:51:46  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-20 21:51:46  INFO local:839 - local: Created a new connection
+2019-02-20 21:51:46  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-20 21:51:46  INFO local:839 - local: Created a new connection
+2019-02-20 21:51:46  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-20 21:51:46  INFO local:839 - local: Created a new connection
+2019-02-20 21:51:46  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-20 21:51:46  INFO local:839 - local: Created a new connection
+2019-02-20 21:51:46  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-20 21:51:46  INFO local:839 - local: Created a new connection
+2019-02-20 21:51:46  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-20 21:51:46  INFO local:839 - local: Created a new connection
+2019-02-20 21:51:48  INFO log:178 - Logging initialized @4811ms
+2019-02-20 21:51:48  INFO WebService:68 - Thread MonitorService started at port 8096
+2019-02-20 21:51:48  INFO WebService:69 - Thread MonitorWebService started at port 8097
+2019-02-20 21:51:48  INFO Server:301 - jetty-9.1.5.v20140505
+2019-02-20 21:51:48  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@5c27d548{/auth/admin,null,AVAILABLE}
+2019-02-20 21:51:48  INFO ContextHandler:747 - Started o.e.j.s.ServletContextHandler@4a0cc120{/,null,AVAILABLE}
+2019-02-20 21:51:48  INFO ServerConnector:266 - Started ServerConnector@32af118e{HTTP/1.1}{0.0.0.0:8096}
+2019-02-20 21:51:48  INFO ServerConnector:266 - Started ServerConnector@1d4a40a{HTTP/1.1}{0.0.0.0:8097}
+2019-02-20 21:51:48  INFO Server:350 - Started @5181ms
+2019-02-20 21:51:53  INFO ServerConnector:303 - Stopped ServerConnector@32af118e{HTTP/1.1}{0.0.0.0:8096}
+2019-02-20 21:51:53  INFO ServerConnector:303 - Stopped ServerConnector@1d4a40a{HTTP/1.1}{0.0.0.0:8097}
+2019-02-20 21:51:53  INFO ContextHandler:864 - Stopped o.e.j.s.ServletContextHandler@4a0cc120{/,null,UNAVAILABLE}
+2019-02-20 21:51:53  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@5c27d548{/auth/admin,null,UNAVAILABLE}
+2019-02-20 21:52:11  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-20 21:52:11  INFO local:839 - local: Created a new connection
+2019-02-20 21:52:12  INFO log:178 - Logging initialized @2374ms
+2019-02-20 21:52:12  INFO WebService:68 - Thread MonitorService started at port 8096
+2019-02-20 21:52:12  INFO WebService:69 - Thread MonitorWebService started at port 8097
+2019-02-20 21:52:12  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-20 21:52:12  INFO local:839 - local: Created a new connection
+2019-02-20 21:52:13  INFO Server:301 - jetty-9.1.5.v20140505
+2019-02-20 21:52:13  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@34a36441{/auth/admin,null,AVAILABLE}
+2019-02-20 21:52:13  INFO ContextHandler:747 - Started o.e.j.s.ServletContextHandler@4306a201{/,null,AVAILABLE}
+2019-02-20 21:52:13  INFO ServerConnector:266 - Started ServerConnector@2da25a03{HTTP/1.1}{0.0.0.0:8096}
+2019-02-20 21:52:13  INFO ServerConnector:266 - Started ServerConnector@51cc2884{HTTP/1.1}{0.0.0.0:8097}
+2019-02-20 21:52:13  INFO Server:350 - Started @2869ms
+2019-02-20 21:55:00  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-20 21:55:00  INFO local:839 - local: Created a new connection
+2019-02-20 21:55:18  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-20 21:55:19  INFO local:839 - local: Created a new connection
+2019-02-20 21:55:50  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-20 21:55:50  INFO local:839 - local: Created a new connection
+2019-02-20 21:56:59  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-20 21:56:59  INFO local:839 - local: Created a new connection
+2019-02-20 21:58:27  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-20 21:58:28  INFO local:839 - local: Created a new connection
+2019-02-20 21:58:28  INFO log:178 - Logging initialized @3050ms
+2019-02-20 21:58:28  INFO WebService:68 - Thread MonitorService started at port 8096
+2019-02-20 21:58:28  INFO WebService:69 - Thread MonitorWebService started at port 8097
+2019-02-20 21:58:29  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-20 21:58:29  INFO local:839 - local: Created a new connection
+2019-02-20 21:58:29  INFO Server:301 - jetty-9.1.5.v20140505
+2019-02-20 21:58:29  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@c81e85c{/auth/admin,null,AVAILABLE}
+2019-02-20 21:58:29  INFO ContextHandler:747 - Started o.e.j.s.ServletContextHandler@29c636e4{/,null,AVAILABLE}
+2019-02-20 21:58:29  INFO ServerConnector:266 - Started ServerConnector@3a07dffe{HTTP/1.1}{0.0.0.0:8096}
+2019-02-20 21:58:29  INFO ServerConnector:266 - Started ServerConnector@286fc0e5{HTTP/1.1}{0.0.0.0:8097}
+2019-02-20 21:58:29  INFO Server:350 - Started @3364ms
+2019-02-20 21:58:51  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-20 21:58:51  INFO local:839 - local: Created a new connection
+2019-02-20 21:58:52  INFO log:178 - Logging initialized @1275ms
+2019-02-20 21:58:52  INFO WebService:68 - Thread MonitorService started at port 8096
+2019-02-20 21:58:52  INFO WebService:69 - Thread MonitorWebService started at port 8097
+2019-02-20 21:58:52  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-20 21:58:52  INFO local:839 - local: Created a new connection
+2019-02-20 21:58:52  INFO Server:301 - jetty-9.1.5.v20140505
+2019-02-20 21:58:52  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@50e79acb{/auth/admin,null,AVAILABLE}
+2019-02-20 21:58:52  INFO ContextHandler:747 - Started o.e.j.s.ServletContextHandler@51ef8add{/,null,AVAILABLE}
+2019-02-20 21:58:52  WARN AbstractLifeCycle:210 - FAILED ServerConnector@4c99fae1{HTTP/1.1}{0.0.0.0:8096}: java.net.BindException: Address already in use
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:279)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:218)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:337)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.gbc.al.service.WebService.run(WebService.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+2019-02-20 21:58:52  WARN AbstractLifeCycle:210 - FAILED ServerConnector@160362e1{HTTP/1.1}{0.0.0.0:8097}: java.net.BindException: Address already in use
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:279)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:218)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:337)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.gbc.al.service.WebService.run(WebService.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+2019-02-20 21:58:52  WARN AbstractLifeCycle:210 - FAILED org.eclipse.jetty.server.Server@69bcb92d: MultiException[java.net.BindException: Address already in use, java.net.BindException: Address already in use]
+MultiException[java.net.BindException: Address already in use, java.net.BindException: Address already in use]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:303)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.gbc.al.service.WebService.run(WebService.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:279)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:218)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:337)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.gbc.al.service.WebService.run(WebService.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:279)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:218)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:337)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.gbc.al.service.WebService.run(WebService.java:111)
+	at java.lang.Thread.run(Thread.java:748)
+2019-02-20 21:58:52 ERROR WebService:116 - Cannot start WebService: Multiple exceptions
+2019-02-20 21:58:52  INFO ServerConnector:303 - Stopped ServerConnector@4c99fae1{HTTP/1.1}{0.0.0.0:8096}
+2019-02-20 21:58:52  INFO ServerConnector:303 - Stopped ServerConnector@160362e1{HTTP/1.1}{0.0.0.0:8097}
+2019-02-20 21:58:52  INFO ContextHandler:864 - Stopped o.e.j.s.ServletContextHandler@51ef8add{/,null,UNAVAILABLE}
+2019-02-20 21:58:52  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@50e79acb{/auth/admin,null,UNAVAILABLE}
+2019-02-20 21:58:55  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-20 21:58:55  INFO local:839 - local: Created a new connection
+2019-02-20 22:00:52  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-20 22:00:52  INFO local:839 - local: Created a new connection
+2019-02-20 22:01:24  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-20 22:01:24  INFO local:839 - local: Created a new connection
+2019-02-20 22:01:25  INFO log:178 - Logging initialized @3113ms
+2019-02-20 22:01:25  INFO WebService:68 - Thread MonitorService started at port 8096
+2019-02-20 22:01:25  INFO WebService:69 - Thread MonitorWebService started at port 8097
+2019-02-20 22:01:25  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-20 22:01:25  INFO local:839 - local: Created a new connection
+2019-02-20 22:01:25  INFO Server:301 - jetty-9.1.5.v20140505
+2019-02-20 22:01:25  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@63365fc3{/auth/admin,null,AVAILABLE}
+2019-02-20 22:01:25  INFO ContextHandler:747 - Started o.e.j.s.ServletContextHandler@6022d3ae{/,null,AVAILABLE}
+2019-02-20 22:01:25  INFO ServerConnector:266 - Started ServerConnector@1574726d{HTTP/1.1}{0.0.0.0:8096}
+2019-02-20 22:01:25  INFO ServerConnector:266 - Started ServerConnector@6de884ee{HTTP/1.1}{0.0.0.0:8097}
+2019-02-20 22:01:25  INFO Server:350 - Started @3379ms
+2019-02-20 22:01:57  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/fingerdb?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2019-02-20 22:01:57  INFO local:839 - local: Created a new connection
