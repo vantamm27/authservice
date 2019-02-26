@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: pyfingerprint
+Version: 1.5
+Summary: Python written library for using the ZFM-20 fingerprint sensor.
+Home-page: https://sicherheitskritisch.de
+Author: Bastian Raschke
+Author-email: bastian.raschke@posteo.de
+License: D-FSL
+Description: UNKNOWN
+Platform: UNKNOWN
