@@ -1,0 +1,14 @@
+
+- Instal python, python2.7, java trên raspberry, mysql
+	https://github.com/vantamm27/install/blob/master/java
+	https://github.com/vantamm27/install/blob/master/python
+- Copy source chạy vào rasppberry chạy 
+- Tạo upstart https://github.com/vantamm27/install/blob/master/upstart
+- Install lib r305
+	Vào thư mục lib_python/pyfingerprint/src
+	Chạy lệnh python2 setup build 
+	Chạy lệnh python2 setup install 
+- Chạy chưng trình 
+	authservice	
+
+
