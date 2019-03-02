@@ -57,35 +57,6 @@ public class FingerModel {
     }
 
     public int LoadUser(List<Finger> listUser) {
-        
-        if ( false){
-            
-            for (int i =1; i <= 10;i++){
-                for (int j =1; j<= 20 ;j++){
-                    try {
-                        Finger u = new  Finger();
-                        u.setId(i+j);
-                        u.setName("["+String.valueOf(i) +"," + String.valueOf(j)+"]");
-                        u.setSource("/media/tamvv/Data1/Downloads/database/"+ String.valueOf(i)+"/"+String.valueOf(j)+".bmp");
-                        u.setCreateDate("2018-12-30");
-                        byte[] image = Files.readAllBytes(Paths.get(u.getSource()));
-                        FingerprintTemplate fgt = new FingerprintTemplate().create(image);
-                        u.setFgt(fgt);
-                        System.out.println(u.getSource());
-                        
-                        listUser.add(u);
-                    } catch (IOException ex) {
-                        java.util.logging.Logger.getLogger(FingerModel.class.getName()).log(Level.SEVERE, null, ex);
-                    }
-                }
-            }
-            
-            return 0;
-        }
-            
-            
-    
-        
 
         int result = -1;
         String sqlStr = "";
@@ -97,7 +68,7 @@ public class FingerModel {
             PreparedStatement repStatement = conn.prepareStatement(sqlStr);
 
             if (repStatement == null) {
-                System.out.println("connect to db error");
+                 logger.error(getClass().getSimpleName() + ".LoadUser: " + "connect to db error", null);
                 return -1;
             }
 
@@ -107,7 +78,7 @@ public class FingerModel {
                 u = new Finger();
                 u.setId(rs.getLong("id"));
                 u.setName(rs.getString("name"));
-                u.setSource(ResourceDir + "/"+ rs.getString("source"));
+                u.setSource(ResourceDir + "/" + rs.getString("source"));
                 u.setCreateDate(rs.getString("createdate"));
                 u.setLastUpdate(rs.getString("lastupdate"));
                 u.loadTemplate();
@@ -116,15 +87,15 @@ public class FingerModel {
             result = 0;
 
         } catch (SQLException ex) {
-            java.util.logging.Logger.getLogger(FingerModel.class.getName()).log(Level.SEVERE, null, ex);
-            return  -1;
+           logger.error(getClass().getSimpleName() + ".LoadUser: " + ex.getMessage(), ex);
+            return -1;
         }
 
         return result;
     }
-    
-    public int Insert( Finger user) {       
-       
+
+    public int Insert(Finger user) {
+
         int result = -1;
         String sqlStr = "";
         Connection conn = MySqlFactory.getConnection();
@@ -135,34 +106,30 @@ public class FingerModel {
 
             if (repStatement == null) {
                 System.out.println("connect to db error");
+                logger.error(getClass().getSimpleName() + ".Insert: " + "connect to db error", null);
                 return -1;
             }
-            
-            int count =  repStatement.executeUpdate();
-            if (count < 0){
-                 System.out.println("insert error" );
+
+            int count = repStatement.executeUpdate();
+            if (count < 0) {
+                logger.error(getClass().getSimpleName() + ".Insert: " + "insert row error", null);
                 return -1;
             }
-            rs =  repStatement.getGeneratedKeys();
-            
-            if(rs.next())
-                {
-                    long id = rs.getLong(1);
-           user.setId(id);
-                }
-           
+            rs = repStatement.getGeneratedKeys();
+
+            if (rs.next()) {
+                long id = rs.getLong(1);
+                user.setId(id);
+            }
+
             result = 0;
 
         } catch (SQLException ex) {
-            java.util.logging.Logger.getLogger(FingerModel.class.getName()).log(Level.SEVERE, null, ex);
-            return  -1;
+            logger.error(getClass().getSimpleName() + ".Insert: " + ex.getMessage(), ex);
+            return -1;
         }
 
         return result;
     }
-    
-   
-    
-    
 
 }

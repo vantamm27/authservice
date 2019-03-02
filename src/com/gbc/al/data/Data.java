@@ -79,6 +79,9 @@ public class Data {
     }
 
     // co the chinh lai tra ve 1 list user
+    // Nhận dạng vân tay 
+    // cấu hình nguong threshold
+    // trả về kết quả trùng khop nhất trên ngưỡng
     public Finger AuthFinger(FingerprintTemplate probe) {
         Finger user = new Finger();
         FingerprintMatcher matcher = new FingerprintMatcher().index(probe);

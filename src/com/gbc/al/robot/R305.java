@@ -110,23 +110,29 @@ public class R305 implements Runnable {
 
     public void Auth() throws Exception {
 
+        // doc van tay
         Session session = ReadFinger();
+        // doc thanh cong
         if (session.getError() == 0) {
-
+            // doc file van tay
             byte[] data = Files.readAllBytes(Paths.get(session.getPath()));
             FingerprintTemplate probe = new FingerprintTemplate().create(data);
+            // nhan dang van tay 
             Finger user = Data.getInstance().AuthFinger(probe);
             System.out.println(user.getName() + " " + user.getSource());
             if (user.getName() != null && user.getName().length() > 0) {
+                // nhan dang thanh cong
                 user.setSource(session.getPath());
-                leb(true);
-                
+                // sang leb
+                leb(true); 
+                //ghi log vao database
                 LogModel.getInstance().insertLog(user);
+                // post len servetr 
                 process(user);
             } else {
+                // nhan dang sai  do some thing 
                 leb(false);
             }
-
         }
 
     }

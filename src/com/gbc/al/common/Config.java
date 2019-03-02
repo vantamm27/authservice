@@ -9,7 +9,7 @@ import com.gbc.al.common.IniFile;
 import org.apache.commons.configuration.ConfigurationException;
 /**
  *
- * @author thanhht2
+ * @author tamvv
  */
 public class Config {
     public static IniFile iniFile = null;

@@ -7,7 +7,7 @@ package com.gbc.al.common;
 
 /**
  *
- * @author thanhht2
+ * @author tamvv
  */
 public class AppConst {
 

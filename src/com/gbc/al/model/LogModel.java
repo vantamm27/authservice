@@ -54,19 +54,20 @@ public class LogModel {
             PreparedStatement repStatement = conn.prepareStatement(sqlStr, Statement.RETURN_GENERATED_KEYS);
 
             if (repStatement == null) {
-                System.out.println("connect to db error");
+                
+                 logger.error(getClass().getSimpleName() + ".insertLog: " + "connect to db error", null);
                 return -1;
             }
 
             int count = repStatement.executeUpdate();
             if (count < 0) {
-                System.out.println("insert error");
+              logger.error(getClass().getSimpleName() + ".insertLog: " + "insert row to db error", null);
                 return -1;
             }
             result = 0;
 
         } catch (SQLException ex) {
-            java.util.logging.Logger.getLogger(CacheModel.class.getName()).log(Level.SEVERE, null, ex);
+            logger.error(getClass().getSimpleName() + ".insertLog: " + ex.getMessage(), ex);
             return -1;
         }
 

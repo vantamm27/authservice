@@ -28,6 +28,7 @@ import org.apache.log4j.Logger;
  * @author tamvv
  */
 public class CacheModel {
+
     private static CacheModel _instance = null;
     private static final Lock createLock_ = new ReentrantLock();
     protected final Logger logger = Logger.getLogger(this.getClass());
@@ -46,12 +47,9 @@ public class CacheModel {
         }
         return _instance;
     }
-    
-    
-    
-    
-    public int GetListCache(List<Cache> listCache){
-        
+
+    public int GetListCache(List<Cache> listCache) {
+
         int result = -1;
         String sqlStr = "";
         Connection conn = MySqlFactory.getConnection();
@@ -72,26 +70,25 @@ public class CacheModel {
                 c = new Cache();
                 c.setId(rs.getLong("id"));
                 c.setFinger_id(rs.getLong("finger_id"));
-                       c.setFinger_name(rs.getString("finger_name"));
-                c.setStatus(rs.getByte("status"));                
-                c.setCreateDate(rs.getString("createdate"));                
+                c.setFinger_name(rs.getString("finger_name"));
+                c.setStatus(rs.getByte("status"));
+                c.setCreateDate(rs.getString("createdate"));
                 c.setLastUpdate(rs.getString("lastupdate"));
                 listCache.add(c);
             }
             result = 0;
 
         } catch (SQLException ex) {
-            java.util.logging.Logger.getLogger(FingerModel.class.getName()).log(Level.SEVERE, null, ex);
-            return  -1;
+            logger.error(getClass().getSimpleName() + ".GetListCache: " + ex.getMessage(), ex);
+            return -1;
         }
 
         return result;
-        
+
     }
-    
-    
-    public int Insert(Finger finger) {       
-       
+
+    public int Insert(Finger finger) {
+
         int result = -1;
         String sqlStr = "";
         Connection conn = MySqlFactory.getConnection();
@@ -104,24 +101,24 @@ public class CacheModel {
                 System.out.println("connect to db error");
                 return -1;
             }
-            
-            int count =  repStatement.executeUpdate();
-            if (count < 0){
-                 System.out.println("insert error" );
+
+            int count = repStatement.executeUpdate();
+            if (count < 0) {
+                System.out.println("insert error");
                 return -1;
-            }           
+            }
             result = 0;
 
         } catch (SQLException ex) {
-            java.util.logging.Logger.getLogger(CacheModel.class.getName()).log(Level.SEVERE, null, ex);
-            return  -1;
+            logger.error(getClass().getSimpleName() + ".Insert: " + ex.getMessage(), ex);
+            return -1;
         }
 
         return result;
     }
-    
-    public int UpdateStatus(Cache cache) {       
-       
+
+    public int UpdateStatus(Cache cache) {
+
         int result = -1;
         String sqlStr = "";
         Connection conn = MySqlFactory.getConnection();
@@ -134,17 +131,17 @@ public class CacheModel {
                 System.out.println("connect to db error");
                 return -1;
             }
-            
-            int count =  repStatement.executeUpdate();
-            if (count < 0){
-                 System.out.println("insert error" );
+
+            int count = repStatement.executeUpdate();
+            if (count < 0) {
+                System.out.println("insert error");
                 return -1;
-            }           
+            }
             result = 0;
 
         } catch (SQLException ex) {
-            java.util.logging.Logger.getLogger(CacheModel.class.getName()).log(Level.SEVERE, null, ex);
-            return  -1;
+            logger.error(getClass().getSimpleName() + ".UpdateStatus: " + ex.getMessage(), ex);
+            return -1;
         }
 
         return result;

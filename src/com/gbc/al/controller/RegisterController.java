@@ -72,6 +72,9 @@ public class RegisterController extends HttpServlet {
         CommonModel.out(content, resp);
     }
 
+    // vd:
+    // req http://192.168.43.34:8096/api/v1/register/?cm=finger&name=tamvv
+    // resp {"err":0,"msg":"success","dt":{"id":44,"name":"tamvv","source":"/opt/r305/databases/1551492577796.bmp"}}
     private String RegisterFinger(HttpServletRequest req) {
         try {
             //read data request
@@ -81,18 +84,20 @@ public class RegisterController extends HttpServlet {
             }
             String src = String.valueOf(name + "_" + System.nanoTime() + ".bmp");
             Finger newUser = R305.Register(name);
-            
-             byte[] data = Files.readAllBytes(Paths.get(newUser.getSource()));
-                FingerprintTemplate probe = new FingerprintTemplate().create(data);               
-                System.out.println(newUser.getName() + " " + newUser.getSource());
+
+            byte[] data = Files.readAllBytes(Paths.get(newUser.getSource()));
+            FingerprintTemplate probe = new FingerprintTemplate().create(data);
+            System.out.println(newUser.getName() + " " + newUser.getSource());
             FingerprintTemplate fgt = new FingerprintTemplate().create(data);
             newUser.setFgt(fgt);
             Data.getInstance().AddUserToCache(newUser);
             return CommonModel.FormatResponse(0, "success", newUser);
         } catch (IOException ex) {
-            java.util.logging.Logger.getLogger(AuthController.class.getName()).log(Level.SEVERE, null, ex);
+            logger.error(getClass().getSimpleName() + ".RegisterFinger: " + ex.getMessage(), ex);
+            
         } catch (Exception ex) {
-            java.util.logging.Logger.getLogger(RegisterController.class.getName()).log(Level.SEVERE, null, ex);
+           logger.error(getClass().getSimpleName() + ".RegisterFinger: " + ex.getMessage(), ex);
+            
         }
 
         return CommonModel.FormatResponse(-1, "falure");

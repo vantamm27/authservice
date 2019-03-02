@@ -34,7 +34,7 @@ import org.eclipse.jetty.server.session.HashSessionIdManager;
 //import org.eclipse.jetty.websocket.servlet.WebSocketServletFactory;
 /**
  *
- * @author thanhht2
+ * @author tamvv
  */
 public class WebService implements Runnable{
     private static final Logger logger = Logger.getLogger(WebService.class);
@@ -82,7 +82,9 @@ public class WebService implements Runnable{
             server.setConnectors(new Connector[]{connector, connectorWS});
 
             ServletHandler servletHandler = new ServletHandler();            
-            servletHandler.addServletWithMapping(AuthController.class, "/api/v1/auth/*");            
+            // nhan dang van tay 
+            //servletHandler.addServletWithMapping(AuthController.class, "/api/v1/auth/*");            
+            // dang ky 1 van tay 
             servletHandler.addServletWithMapping(RegisterController.class, "/api/v1/register/*");            
             ServletContextHandler servletContext = new ServletContextHandler(ServletContextHandler.NO_SESSIONS);
             

@@ -21,7 +21,7 @@ import com.gbc.al.robot.R305;
 
 /**
  *
- * @author thanhht2
+ * @author tamvv
  */
 public class MainService {
 
@@ -55,13 +55,16 @@ public class MainService {
                 public void run() {
                     try {
 //                        logger.info("Shutdown thread before webservice getinstance");
+        // http server auth, register
                         if (webService != null) {
                             webService.stop();
                         }
+        // doc van tay tu may cham cong
                         if (r305handler != null) {
                             r305handler.stop();
                         }
-
+        // dong bo cache khi mang chap chon
+        
                         if (cachehandler != null) {
                             cachehandler.stop();
                         }
@@ -79,7 +82,6 @@ public class MainService {
             System.out.println(e.getMessage());
             System.exit(3);
         }
-
 
     }
 }

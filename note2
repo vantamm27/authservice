@@ -1,0 +1,106 @@
+Hướng dẫn cài đặt rasberry pi  + module nhận dạng vân tay
++ Cài đặt raspberry pi 
+  - Yêu cầu:
+	Máy tính raspberry pi
+	Thẻ nhớ microsd (class 10) tối thiểu 8Gb
+	Uart 
+	File hệ điều hành raspbian (link download https://downloads.raspberrypi.org/raspbian_full_latest)
+	Phần mền format và ghi thẻ nhớ 
+		Windows: https://sourceforge.net/projects/win32diskimager/
+		Linux: Lệnh dd 
+			dd if=<file hệ điều hành> of=<ổ đĩa cần ghi> status=progress  bs=4096
+
+  https://raspberrypi.vn/thu-thuat-raspberry-pi/huong-dan-cai-dieu-hanh-cho-raspberry-pi-2457.pi
+
++ Cài đặt môi trường dev trên raspberry pi
+  -  Java: https://github.com/vantamm27/install/blob/master/java
+  -  Python, Python2:https://github.com/vantamm27/install/blob/master/python
++ Cài đặt lib giao tiếp module r305
+
+
+
+
+###############################
+Sau khi cài đặt dc os và kết nối, ta cần biết ip rasspberry
+ 
+Cấu hình raspberry https://github.com/vantamm27/raspberry_pi
+Source java: https://github.com/vantamm27/authservice
+App scan ip mang lan:  fing 
+ssh raspberry bằng uart: https://github.com/vantamm27/raspberry_pi/blob/master/ssh_uart
+cd  /dev tìm device có ttyUSB* ==> chmod 777. vd chmod 777 /dev/ttyUSB0
+ssh raspberry qua uart: 
+	run cmd:  screen /dev/ttyUSB0  115200
+
+Login:  pi/raspberry
+Run cmd ifconfig 
+
+#################################
+Cấu hình wifi cho rasspbery nếu chưa có kết nối mạng
+
+Tham khảo link: https://github.com/vantamm27/raspberry_pi/blob/master/wifi 
+Restart  lại raspberry để raspberry kết nói mạng wifi 
+ 	Run cmd : sudo reboot 
+
+
+
+##############################
+Cấu hình phần mềm
+B1: Cài đặt os cho raspberry pi
+	Link tham khảo https://github.com/vantamm27/raspberry_pi/tree/master	 
+B2: Cài cmd screen   trên máy tính 
+B3: Remote vào raspberry pi bằng uart hoặc mạng 
+B4: Cài đặt các gói cần thiết tương tự nhưng linux.
+	Python: sudo apt-get update && sudo apt-get install -y  python python2.7  # lib giao tiep r305 
+	Mysql: sudo apt-get update && sudo apt-get install -y  mysql-server mysql-client  # database 
+	Java:   sudo apt-get update && sudo apt-get install -y  openjdk-8-jdk  . Hoặc tham khảo https://github.com/vantamm27/install/blob/master/java # set jvm 
+
+B5: Tạo thư mục /opt/r305/deploy
+B6: Copy phần mền vào thư mục /opt/r305/deploy
+B7: Ta cần cấu hình service  khởi động cùng hệ thống:
+    Tạ0 upstart cho phần mềm
+	Thêm cấu hình trong file /etc/rc.local 
+	==>
+	/opt/r305/deploy/run.sh &  (# Thêm vào trước lênh exit 0)
+B8: Khỏi động lại chương trình
+
+#######################
+Cấu trúc thư mục deploy 
+/opt/r305
+   databases: chứa file ảnh vân tay 
+   deploy: chứa file birnary của service 
+   pyfingerprint: chứ lib giao tiếp với r305
+B1: install lib cần thiết: mysql-server,mysql-client, python, python2.7
+B2: install lib giao tiếp r305 run lần lược các cmd sau: 
+   cd /opt/r305/pyfingerprint/src
+   python2 setup.py build
+   sudo python2 setup.py install 
+########################
+Đăng ký vân tay 
+Mở trình duyệt gõ
+    http://<ip may cham cong>:8096/api/v1/register/?cm=finger&name=ngon4 
+    vd: http://172.17.0.1:8096/api/v1/register/?cm=finger&name=ngon4
+    lúc này người đăng ký tiến hành quét vân tay
+* Lưu ý đè ngón tay vừa phải để lấy đầu đủ vân tay
+
+########################
+Tài liệu tham khảo
+Lib nhận dạng: https://sourceafis.machinezoo.com/
+
+
+
+    
+ 
+ 
+
+
+
+
+
+		
+ 
+
+
+  
+	
+
+

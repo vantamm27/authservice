@@ -31,23 +31,24 @@ import org.apache.http.util.ByteArrayBuffer;
 import org.apache.log4j.Logger;
 import org.apache.sanselan.util.IOUtils;
 
-
 /**
  *
  * @author tamvv
  */
-public class AuthController  extends HttpServlet{
-     private static final Logger logger = Logger.getLogger(AuthController.class);
-      @Override
+public class AuthController extends HttpServlet {
+
+    private static final Logger logger = Logger.getLogger(AuthController.class);
+
+    @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         handle(req, resp);
     }
-    
+
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         handle(req, resp);
     }
-    
+
     private void handle(HttpServletRequest req, HttpServletResponse resp) {
         try {
             processs(req, resp);
@@ -55,15 +56,15 @@ public class AuthController  extends HttpServlet{
             logger.error(getClass().getSimpleName() + ".handle: " + ex.getMessage(), ex);
         }
     }
-    
+
     private void processs(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         String pathInfo = (req.getPathInfo() == null) ? "" : req.getPathInfo();
         String cmd = req.getParameter("cm") != null ? req.getParameter("cm") : "";
         String content = "";
         pathInfo = pathInfo.toLowerCase();
         CommonModel.prepareHeader(resp, CommonModel.HEADER_JS);
-        
-        switch (cmd) {            
+
+        switch (cmd) {
             case "finger":
                 content = AuthFinger(req);
                 break;
@@ -72,27 +73,25 @@ public class AuthController  extends HttpServlet{
         }
         CommonModel.out(content, resp);
     }
-    
-    private String AuthFinger(HttpServletRequest req){        
-         try {
-             //read data request
 
-             byte[] data = MyUtils.GetReqData(req.getInputStream());
-             //data = Files.readAllBytes(Paths.get("/media/tamvv/Data1/Downloads/database/5/1.bmp"));
-             FingerprintTemplate probe = new FingerprintTemplate().create(data);
-             
-             
-             Finger user = Data.getInstance().AuthFinger(probe);
-             // do something
+    private String AuthFinger(HttpServletRequest req) {
+        try {
+            //read data request
 
-             return CommonModel.FormatResponse(0, "success", user);
-         } catch (IOException ex) {
-             java.util.logging.Logger.getLogger(AuthController.class.getName()).log(Level.SEVERE, null, ex);
-         }
-         
+            byte[] data = MyUtils.GetReqData(req.getInputStream());
+            //data = Files.readAllBytes(Paths.get("/media/tamvv/Data1/Downloads/database/5/1.bmp"));
+            FingerprintTemplate probe = new FingerprintTemplate().create(data);
+
+            Finger user = Data.getInstance().AuthFinger(probe);
+            // do something
+
+            return CommonModel.FormatResponse(0, "success", user);
+        } catch (IOException ex) {
+            logger.error(getClass().getSimpleName() + ".AuthFinger: " + ex.getMessage(), ex);
+        }
+
         return CommonModel.FormatResponse(-1, "falure");
-        
+
     }
-    
-   
+
 }
