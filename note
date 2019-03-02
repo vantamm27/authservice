@@ -1,4 +1,29 @@
 
+Setup
+B1: Cài đặt os cho raspberry pi
+	Link tham khảo https://github.com/vantamm27/raspberry_pi/tree/master	 
+B2: Cài cmd screen   trên máy tính 
+B3: Remote vào raspberry pi bằng uart hoặc mạng 
+B4: Cài đặt các gói cần thiết tương tự nhưng linux.
+	Python: sudo apt-get update && sudo apt-get install -y  python python2.7 
+	Mysql: sudo apt-get update && sudo apt-get install -y  mysql-server mysql-client 
+	Java:   sudo apt-get update && sudo apt-get install -y  openjdk-8-jdk  . Hoặc tham khảo https://github.com/vantamm27/install/blob/master/java
+B5: Tạo thư mục /opt/r305/deploy
+B6: Copy phần mền vào thư mục /opt/r305/deploy
+B7: Tạp upstart cho phần mềm
+	Thêm cấu hình trong file /etc/rc.local 
+	==>
+	/opt/r305/deploy/run.sh &  (# Thêm vào trước lênh exit 0)
+B8: Khỏi động lại raspberry pi 
+    sudo reboot
+B9: Remote vào raspberry pi
+B10: Kiểm tra service có hoạt động không.
+    ps -ef | grep sleep 
+    ps -ef | grep java 
+    
+
+######################
+
 - Instal python, python2.7, java trên raspberry, mysql
 	https://github.com/vantamm27/install/blob/master/java
 	https://github.com/vantamm27/install/blob/master/python
