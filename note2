@@ -86,7 +86,9 @@ Mở trình duyệt gõ
 Tài liệu tham khảo
 Lib nhận dạng: https://sourceafis.machinezoo.com/
 
-
+start trinh duyent
+export DISPLAY=:0.0
+chromium-browser --start-maximized https://google.com
 
     
  
