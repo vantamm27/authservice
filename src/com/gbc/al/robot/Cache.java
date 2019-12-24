@@ -50,7 +50,8 @@ public class Cache implements Runnable {
 
             for (com.gbc.al.data.Cache cache : caches) {
                 if (cache.getStatus() == 1) {
-                    String url = ReportHttp + "?cm=report&user=" + cache.getFinger_name() + "&timestamp=" + MyUtils.DateTime2Timestamp(cache.getCreateDate());
+                    //String url = ReportHttp + "?cm=report&user=" + cache.getFinger_name() + "&timestamp=" + MyUtils.DateTime2Timestamp(cache.getCreateDate());
+                    String url = ReportHttp + "?id=" + cache.getFinger_code() + "&latetime="+Long.toString(cache.getLatetime()) ;                    
                     try {
                         String result = MyUtils.HttpGetRequest(url);
                         // do something

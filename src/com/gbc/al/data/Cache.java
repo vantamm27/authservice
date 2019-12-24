@@ -12,10 +12,12 @@ package com.gbc.al.data;
 public class Cache {
     private long id;
     private long finger_id;
+    private String finger_code;
     private String finger_name;
     private String createDate;
     private byte status;
     private String lastUpdate;
+    private long latetime;
 
     /**
      * @return the id
@@ -99,6 +101,34 @@ public class Cache {
      */
     public void setFinger_name(String finger_name) {
         this.finger_name = finger_name;
+    }
+
+    /**
+     * @return the finger_code
+     */
+    public String getFinger_code() {
+        return finger_code;
+    }
+
+    /**
+     * @param finger_code the finger_code to set
+     */
+    public void setFinger_code(String finger_code) {
+        this.finger_code = finger_code;
+    }
+
+    /**
+     * @return the latetime
+     */
+    public long getLatetime() {
+        return latetime;
+    }
+
+    /**
+     * @param latetime the latetime to set
+     */
+    public void setLatetime(long latetime) {
+        this.latetime = latetime;
     }
     
 }

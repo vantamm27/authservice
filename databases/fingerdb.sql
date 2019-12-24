@@ -1,8 +1,10 @@
--- MySQL dump 10.13  Distrib 5.7.25, for Linux (x86_64)
+CREATE DATABASE  IF NOT EXISTS `fingerdb` /*!40100 DEFAULT CHARACTER SET utf8 */;
+USE `fingerdb`;
+-- MySQL dump 10.13  Distrib 5.7.28, for Linux (x86_64)
 --
 -- Host: 172.17.0.1    Database: fingerdb
 -- ------------------------------------------------------
--- Server version	5.7.14
+-- Server version	5.7.28
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -15,9 +17,9 @@
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
-CREATE DATABASE /*!32312 IF NOT EXISTS*/ `alertservice` /*!40100 DEFAULT CHARACTER SET utf8 */;
+CREATE DATABASE /*!32312 IF NOT EXISTS*/ `fingerdb` /*!40100 DEFAULT CHARACTER SET utf8 */;
 
-USE `alertservice`;
+USE `fingerdb`;
 
 --
 -- Table structure for table `cache`
@@ -30,22 +32,14 @@ CREATE TABLE `cache` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `finger_id` int(11) DEFAULT NULL,
   `finger_name` varchar(128) COLLATE utf8_bin DEFAULT NULL,
-  `createdate` timestamp NULL,
+  `createdate` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   `status` int(1) DEFAULT '1',
-  `lastupdate` timestamp NULL,
+  `lastupdate` timestamp NULL DEFAULT NULL,
+  `finger_code` varchar(64) COLLATE utf8_bin DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `id_UNIQUE` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+) ENGINE=InnoDB AUTO_INCREMENT=29 DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 /*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `cache`
---
-
-LOCK TABLES `cache` WRITE;
-/*!40000 ALTER TABLE `cache` DISABLE KEYS */;
-/*!40000 ALTER TABLE `cache` ENABLE KEYS */;
-UNLOCK TABLES;
 
 --
 -- Table structure for table `finger`
@@ -56,22 +50,14 @@ DROP TABLE IF EXISTS `finger`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `finger` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
+  `code` varchar(64) CHARACTER SET utf8 DEFAULT NULL,
   `name` varchar(128) CHARACTER SET utf8 NOT NULL,
   `source` varchar(512) CHARACTER SET utf8 NOT NULL,
-  `lastupdate` timestamp NULL,
-  `createdate` timestamp NULL,
+  `lastupdate` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `createdate` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=41 DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+) ENGINE=InnoDB AUTO_INCREMENT=51 DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 /*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `finger`
---
-
-LOCK TABLES `finger` WRITE;
-/*!40000 ALTER TABLE `finger` DISABLE KEYS */;
-/*!40000 ALTER TABLE `finger` ENABLE KEYS */;
-UNLOCK TABLES;
 
 --
 -- Table structure for table `log`
@@ -85,20 +71,20 @@ CREATE TABLE `log` (
   `finger_id` int(11) NOT NULL,
   `finger_name` varchar(128) CHARACTER SET utf8 NOT NULL,
   `source` varchar(512) CHARACTER SET utf8 NOT NULL,
-  `lastupdate` timestamp NULL,
-  `createdate` timestamp NULL,
+  `lastupdate` timestamp NULL DEFAULT NULL,
+  `createdate` timestamp NULL DEFAULT NULL,
+  `finger_code` varchar(64) COLLATE utf8_bin DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `log`
+-- Dumping events for database 'fingerdb'
 --
 
-LOCK TABLES `log` WRITE;
-/*!40000 ALTER TABLE `log` DISABLE KEYS */;
-/*!40000 ALTER TABLE `log` ENABLE KEYS */;
-UNLOCK TABLES;
+--
+-- Dumping routines for database 'fingerdb'
+--
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -109,4 +95,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-02-20 22:10:41
+-- Dump completed on 2019-12-24  0:11:46

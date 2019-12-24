@@ -54,7 +54,7 @@ public class CacheModel {
         String sqlStr = "";
         Connection conn = MySqlFactory.getConnection();
         ResultSet rs;
-        sqlStr = String.format("select id, finger_id, finger_name, status, createdate, lastupdate from cache Where status=1;");
+        sqlStr = String.format("select id, finger_code, finger_id, finger_name, status, createdate, lastupdate, TIMESTAMPDIFF(SECOND, createdate, now()) as latetime from cache Where status=1;");
 
         try {
             PreparedStatement repStatement = conn.prepareStatement(sqlStr);
@@ -69,11 +69,13 @@ public class CacheModel {
             while (rs.next()) {
                 c = new Cache();
                 c.setId(rs.getLong("id"));
+                c.setFinger_code(rs.getString("finger_code"));
                 c.setFinger_id(rs.getLong("finger_id"));
                 c.setFinger_name(rs.getString("finger_name"));
                 c.setStatus(rs.getByte("status"));
                 c.setCreateDate(rs.getString("createdate"));
                 c.setLastUpdate(rs.getString("lastupdate"));
+                c.setLatetime(rs.getLong("latetime"));
                 listCache.add(c);
             }
             result = 0;
@@ -93,7 +95,8 @@ public class CacheModel {
         String sqlStr = "";
         Connection conn = MySqlFactory.getConnection();
         ResultSet rs;
-        sqlStr = String.format("insert into cache(`finger_id`,`finger_name`, `status`) values(%d, '%s', %d);", finger.getId(), finger.getName(), 1);
+        sqlStr = String.format("insert into cache(`finger_id`,`finger_code`, `finger_name`, `status`, `createdate`, `lastupdate`) values(%d, '%s', '%s',%d, now(), now());", finger.getId(), finger.getCode(), finger.getName(), 1);
+        logger.info(sqlStr);
         try {
             PreparedStatement repStatement = conn.prepareStatement(sqlStr, Statement.RETURN_GENERATED_KEYS);
 

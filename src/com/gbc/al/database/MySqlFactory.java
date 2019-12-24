@@ -40,7 +40,7 @@ public class MySqlFactory {
 
         if (pool != null) {
             try {
-                return pool.getConnection(2000);
+                return pool.getConnection(20);
             } catch (SQLException ex) {
                 logger.error("getConnection : " + ex.getMessage());
             }

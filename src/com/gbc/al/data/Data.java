@@ -69,8 +69,7 @@ public class Data {
         return -1;
     }
     
-    public int AddUserToCache(Finger user ) {
-        
+    public int AddUserToCache(Finger user ) {       
         
        
         g_user.add(user);
@@ -92,6 +91,7 @@ public class Data {
             System.out.println(u.getSource() + " " + temp);
             if (temp > score && temp > threshold) {
                 user.setId(u.getId());
+                user.setCode(u.getCode());
                 user.setName(u.getName());
                 user.setLastUpdate(u.getLastUpdate());
                 user.setCreateDate(u.getCreateDate());

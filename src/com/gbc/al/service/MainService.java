@@ -35,17 +35,16 @@ public class MainService {
         try {
 
             Config.init(AppConst.Config_File);
-            System.out.println("1");
+            System.out.println("load data  to cache");
             Data.getInstance().Init();
-            System.out.println("2");
-
+            System.out.println("start ws");
             webService = WebService.getInstance();
             new Thread(webService).start();
-            System.out.println("3");
+            System.out.println("start r305 service");
             r305Service = new R305();
             Thread r305handler = new Thread(r305Service);
             r305handler.start();
-
+            System.out.println("start cache log local");
             cacheService = new Cache();
             Thread cachehandler = new Thread(cacheService);
             cachehandler.start();

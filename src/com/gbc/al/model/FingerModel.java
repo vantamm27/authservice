@@ -55,17 +55,19 @@ public class FingerModel {
         }
         return _instance;
     }
-
+    //load to cache
     public int LoadUser(List<Finger> listUser) {
 
         int result = -1;
         String sqlStr = "";
-        Connection conn = MySqlFactory.getConnection();
-        ResultSet rs;
-        sqlStr = String.format("select  id, name, source, createdate, lastupdate from finger");
+        Connection conn = null;
+        PreparedStatement repStatement = null;
+        ResultSet rs = null;
+        sqlStr = String.format("select  id, code, name, source, createdate, lastupdate from finger");
 
         try {
-            PreparedStatement repStatement = conn.prepareStatement(sqlStr);
+            conn =  MySqlFactory.getConnection();
+            repStatement = conn.prepareStatement(sqlStr, Statement.RETURN_GENERATED_KEYS);
 
             if (repStatement == null) {
                  logger.error(getClass().getSimpleName() + ".LoadUser: " + "connect to db error", null);
@@ -77,6 +79,7 @@ public class FingerModel {
             while (rs.next()) {
                 u = new Finger();
                 u.setId(rs.getLong("id"));
+                u.setCode(rs.getString("code"));
                 u.setName(rs.getString("name"));
                 u.setSource(ResourceDir + "/" + rs.getString("source"));
                 u.setCreateDate(rs.getString("createdate"));
@@ -89,6 +92,57 @@ public class FingerModel {
         } catch (SQLException ex) {
            logger.error(getClass().getSimpleName() + ".LoadUser: " + ex.getMessage(), ex);
             return -1;
+        }finally{
+            MySqlFactory.safeClose(rs);
+            MySqlFactory.safeClose(repStatement);
+            MySqlFactory.safeClose(conn);
+
+        }
+
+        return result;
+    }
+
+    //
+    public int GetUser(List<Finger> listUser) {
+
+        int result = -1;
+        String sqlStr = "";
+        Connection conn = null;
+        PreparedStatement repStatement = null;
+        ResultSet rs = null;
+        sqlStr = String.format("select  id ,code, name, source, createdate, lastupdate from finger order by createdate desc;");
+
+        try {
+            conn =  MySqlFactory.getConnection();
+            repStatement = conn.prepareStatement(sqlStr, Statement.RETURN_GENERATED_KEYS);
+
+            if (repStatement == null) {
+                 logger.error(getClass().getSimpleName() + ".GetUser: " + "connect to db error", null);
+                return -1;
+            }
+
+            rs = repStatement.executeQuery();
+            Finger u = null;
+            while (rs.next()) {
+                u = new Finger();
+                u.setId(rs.getLong("id"));
+                u.setCode(rs.getString("code"));
+                u.setName(rs.getString("name"));
+                u.setSource(ResourceDir + "/" + rs.getString("source"));
+                u.setCreateDate(rs.getString("createdate"));
+                u.setLastUpdate(rs.getString("lastupdate"));                
+                listUser.add(u);
+            }
+            result = 0;
+
+        } catch (SQLException ex) {
+           logger.error(getClass().getSimpleName() + ".GetUser: " + ex.getMessage(), ex);
+            return -1;
+        }finally{
+            MySqlFactory.safeClose(rs);
+            MySqlFactory.safeClose(repStatement);
+            MySqlFactory.safeClose(conn);
+
         }
 
         return result;
@@ -98,11 +152,13 @@ public class FingerModel {
 
         int result = -1;
         String sqlStr = "";
-        Connection conn = MySqlFactory.getConnection();
-        ResultSet rs;
-        sqlStr = String.format("insert into finger(name, source) values('%s', '%s' );", user.getName(), user.getSource());
+        Connection conn = null;
+        PreparedStatement repStatement = null;
+        ResultSet rs = null;
+        sqlStr = String.format("insert into finger(name, code, source, createdate, lastupdate) values('%s','%s', '%s', now(), now() );", user.getName(), user.getCode(), user.getSource());
         try {
-            PreparedStatement repStatement = conn.prepareStatement(sqlStr, Statement.RETURN_GENERATED_KEYS);
+           conn =  MySqlFactory.getConnection();
+            repStatement = conn.prepareStatement(sqlStr, Statement.RETURN_GENERATED_KEYS);
 
             if (repStatement == null) {
                 System.out.println("connect to db error");
@@ -127,6 +183,11 @@ public class FingerModel {
         } catch (SQLException ex) {
             logger.error(getClass().getSimpleName() + ".Insert: " + ex.getMessage(), ex);
             return -1;
+        }finally{
+            MySqlFactory.safeClose(rs);
+            MySqlFactory.safeClose(repStatement);
+            MySqlFactory.safeClose(conn);
+
         }
 
         return result;

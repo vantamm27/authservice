@@ -1,0 +1,43 @@
+<div id = "wrapper" class="container body">
+    <div class="main_container">
+      <div class="right_col" role="main">
+        <h1 style="text-align:center">Vân tay</h1>
+        <form  class="form-inline">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Mã nhân viên</label>
+            <input type="text" ng-model="newFinger.code" name="code" value="" class="form-control" id="finger_code" aria-describedby="emailHelp" placeholder="Mã nhân viên">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Họ và tên</label>
+            <input type="text" ng-model="newFinger.name" name="name" value="" class="form-control" id="finger_name" aria-describedby="emailHelp" placeholder="Họ và tên">
+          </div>
+
+          <!-- <div class="form-group" style="display:none;">
+            <label for="exampleInputEmail1">Họ và tên</label>
+            <input  type="text" ng-model="newFinger.cm" name="cm" value="finger" class="form-control" id="finger_cm" aria-describedby="emailHelp" placeholder="Họ và tên">
+          </div> -->
+          <button ng-click="registerFinger()" class="btn btn-primary">Submit</button>
+        </form>
+
+        <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Mã nhân viên</th>
+            <th scope="col">Họ và Tên</th>
+            <th scope="col">Thời gian</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr ng-repeat="f in fingers">
+            <th scope="row">{{$index +1 }}</th>
+            <td>{{f.code}}</td>
+            <td>{{f.name}}</td>
+            <td>{{f.createDate}}</td>
+          </tr>
+        </tbody>
+    </table>
+      </div>
+
+    </div>
+</div>

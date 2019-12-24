@@ -15,6 +15,8 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 import java.util.logging.Level;
@@ -47,11 +49,13 @@ public class LogModel {
     public int insertLog(Finger finger) {
         int result = -1;
         String sqlStr = "";
-        Connection conn = MySqlFactory.getConnection();
-        ResultSet rs;
-        sqlStr = String.format("insert into log(`finger_id`,`finger_name`, `source`) values(%d, '%s', '%s');", finger.getId(), finger.getName(), finger.getSource());
+        Connection conn = null;
+        PreparedStatement repStatement = null;
+        ResultSet rs = null;
+        sqlStr = String.format("insert into log(`finger_id`, `finger_code`,`finger_name`, `source`, `lastupdate`, `createdate`) values(%d, '%s','%s', '%s', now(), now());", finger.getId(),finger.getCode(), finger.getName(), finger.getSource());
         try {
-            PreparedStatement repStatement = conn.prepareStatement(sqlStr, Statement.RETURN_GENERATED_KEYS);
+            conn =  MySqlFactory.getConnection();
+            repStatement = conn.prepareStatement(sqlStr, Statement.RETURN_GENERATED_KEYS);
 
             if (repStatement == null) {
                 
@@ -69,6 +73,61 @@ public class LogModel {
         } catch (SQLException ex) {
             logger.error(getClass().getSimpleName() + ".insertLog: " + ex.getMessage(), ex);
             return -1;
+        }finally{
+            MySqlFactory.safeClose(rs);
+            MySqlFactory.safeClose(repStatement);
+            MySqlFactory.safeClose(conn);
+
+        }
+
+        return result;
+
+    }
+
+    public int getTopLog(List<Finger> fingers) {
+        int result = -1;
+        String sqlStr = "";        
+        Connection conn = null;
+        PreparedStatement repStatement = null;
+        ResultSet rs = null;
+        sqlStr = String.format("select `id`, `finger_id`, `finger_code`,`finger_name`, `source`, `lastupdate`, `createdate`"
+                + " from fingerdb.log "
+                + " order by createdate desc limit 100;");
+        logger.info(sqlStr);
+        try {            
+            conn =  MySqlFactory.getConnection();
+            repStatement = conn.prepareStatement(sqlStr, Statement.RETURN_GENERATED_KEYS);
+
+            if (repStatement == null) {
+                
+                 logger.error(getClass().getSimpleName() + ".getopLog: " + "connect to db error", null);
+                return -1;
+            }
+            rs = repStatement.executeQuery();
+            
+            Finger u = null;            
+            while (rs.next()) {
+                u = new Finger();
+                u.setId(rs.getLong("finger_id"));
+                u.setCode(rs.getString("finger_code"));
+                u.setName(rs.getString("finger_name"));
+                u.setSource(rs.getString("source"));
+                u.setCreateDate(rs.getString("createdate"));
+                u.setLastUpdate(rs.getString("lastupdate"));               
+                fingers.add(u);              
+            }
+            result = 0;
+            rs.close();
+            repStatement.close();
+
+        } catch (SQLException ex) {
+            logger.error(getClass().getSimpleName() + ".getopLog: " + ex.getMessage(), ex);
+            return -1;
+        }finally{
+            MySqlFactory.safeClose(rs);
+            MySqlFactory.safeClose(repStatement);
+            MySqlFactory.safeClose(conn);
+
         }
 
         return result;

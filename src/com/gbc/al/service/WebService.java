@@ -85,7 +85,8 @@ public class WebService implements Runnable{
             // nhan dang van tay 
             //servletHandler.addServletWithMapping(AuthController.class, "/api/v1/auth/*");            
             // dang ky 1 van tay 
-            servletHandler.addServletWithMapping(RegisterController.class, "/api/v1/register/*");            
+            servletHandler.addServletWithMapping(RegisterController.class, "/api/v1/register/*"); 
+            servletHandler.addServletWithMapping(AuthController.class, "/api/v1/auth/*"); 
             ServletContextHandler servletContext = new ServletContextHandler(ServletContextHandler.NO_SESSIONS);
             
             servletContext.setContextPath("/");
@@ -94,10 +95,9 @@ public class WebService implements Runnable{
           
 
             ResourceHandler resource_handler = new ResourceHandler();
-            resource_handler.setResourceBase("./static/admin/");
-            
+            resource_handler.setResourceBase("./static/");            
             ContextHandler resourceContext = new ContextHandler();
-            resourceContext.setContextPath("/auth/admin");
+            resourceContext.setContextPath("/");
             resourceContext.setHandler(resource_handler);
             
             // Specify the Session ID Manager

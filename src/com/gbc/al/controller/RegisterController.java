@@ -12,6 +12,7 @@ import com.gbc.al.data.Data;
 import com.gbc.al.data.Finger;
 import com.gbc.al.model.CommonModel;
 import com.gbc.al.model.FingerModel;
+import com.gbc.al.model.LogModel;
 import com.gbc.al.robot.R305;
 import com.google.api.client.util.DateTime;
 import com.machinezoo.sourceafis.FingerprintTemplate;
@@ -19,7 +20,9 @@ import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 import java.util.logging.Level;
 import javax.servlet.ServletException;
 import javax.servlet.ServletInputStream;
@@ -66,6 +69,13 @@ public class RegisterController extends HttpServlet {
             case "finger":
                 content = RegisterFinger(req);
                 break;
+            case "get":
+                content = GetAllFinger(req);
+                break;
+            case "log":
+                content = GetLogFinger(req);
+                 break;
+               
             default:
                 content = CommonModel.FormatResponse(-1, "Invalid command");
         }
@@ -78,12 +88,16 @@ public class RegisterController extends HttpServlet {
     private String RegisterFinger(HttpServletRequest req) {
         try {
             //read data request
+            String code = req.getParameter("code");
+            if (code == null || code.length() <= 0) {
+                return CommonModel.FormatResponse(0, "invalid parameter code", "");
+            }
             String name = req.getParameter("name");
             if (name == null || name.length() <= 0) {
                 return CommonModel.FormatResponse(0, "invalid parameter name", "");
             }
             String src = String.valueOf(name + "_" + System.nanoTime() + ".bmp");
-            Finger newUser = R305.Register(name);
+            Finger newUser = R305.Register(name, code);
 
             byte[] data = Files.readAllBytes(Paths.get(newUser.getSource()));
             FingerprintTemplate probe = new FingerprintTemplate().create(data);
@@ -103,6 +117,44 @@ public class RegisterController extends HttpServlet {
         return CommonModel.FormatResponse(-1, "falure");
 
     }
+    
+    private String GetAllFinger(HttpServletRequest req) {
+        try {
+            List<Finger> users = new ArrayList();
+            FingerModel.getInstance().GetUser(users);
+            
+            return CommonModel.FormatResponse(0, "success", users);
+        } catch (IOException ex) {
+            logger.error(getClass().getSimpleName() + ".GetAllFinger: " + ex.getMessage(), ex);
+            
+        } catch (Exception ex) {
+           logger.error(getClass().getSimpleName() + ".GetAllFinger: " + ex.getMessage(), ex);
+            
+        }
+
+        return CommonModel.FormatResponse(-1, "failure");
+
+    }
+    
+     
+    private String GetLogFinger(HttpServletRequest req) {
+        try {
+            List<Finger> logs = new ArrayList<Finger>();
+            LogModel.getInstance().getTopLog(logs);
+            
+            return CommonModel.FormatResponse(0, "success", logs);
+        } catch (IOException ex) {
+            logger.error(getClass().getSimpleName() + ".GetLogFinger: " + ex.getMessage(), ex);
+            
+        } catch (Exception ex) {
+           logger.error(getClass().getSimpleName() + ".GetLogFinger: " + ex.getMessage(), ex);
+            
+        }
+
+        return CommonModel.FormatResponse(-1, "failure");
+
+    }
+
 
     /*
     private String RegisterFinger(HttpServletRequest req){        

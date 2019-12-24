@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en" ng-app="theApp">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="assets/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Chấm công</title>
+    <script src="assets/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="assets/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="assets/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </head>
+  <body >
+    <div ng-view >
+      <div id = "wrapper" class="container body">
+          <div class="main_container">
+            <div class="right_col" role="main">
+              <form action="/api/v1/register/">
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Mã nhân viên</label>
+                  <input type="text" name="code" value="" class="form-control" id="finger_code" aria-describedby="emailHelp" placeholder="Mã nhân viên">
+                </div
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Họ và tên</label>
+                  <input type="text" name="name" value="" class="form-control" id="finger_name" aria-describedby="emailHelp" placeholder="Họ và tên">
+                </div>
+                <div class="form-group" style="display:none;">
+                  <label for="exampleInputEmail1">Họ và tên</label>
+                  <input  type="text" name="cm" value="finger" class="form-control" id="finger_cm" aria-describedby="emailHelp" placeholder="Họ và tên">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+<body>
+
+<h2>Register</h2>
+
+<form action="/api/v1/register/">
+  Name:<br>
+  <input type="text" name="name" value="">
+  <input style="display:none;" type="text" name="cm" value="finger">
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html> -->

@@ -74,10 +74,11 @@ public class R305 implements Runnable {
 
     }
 
-    public static Finger Register(String name) throws Exception {
+    public static Finger Register(String name, String code) throws Exception {
         Register = true;
         Finger user = new Finger();
         user.setName(name);
+        user.setCode(code);
         if (Process != null) {
             Process.destroy();
         }
@@ -196,7 +197,8 @@ public class R305 implements Runnable {
 
         try {
 
-            String url = ReportHttp + "?cm=report&user=" + user.getName() + "timestamp=" + String.valueOf(System.currentTimeMillis() / 1000);
+            //String url = ReportHttp + "?cm=report&user=" + user.getName() + "timestamp=" + String.valueOf(System.currentTimeMillis() / 1000);
+            String url = ReportHttp + "?id=" + user.getCode();
             try {
                 String result = MyUtils.HttpGetRequest(url);
 

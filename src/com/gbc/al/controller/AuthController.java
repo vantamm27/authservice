@@ -10,6 +10,7 @@ import com.gbc.al.common.MyUtils;
 import com.gbc.al.data.Data;
 import com.gbc.al.data.Finger;
 import com.gbc.al.model.CommonModel;
+import com.gbc.al.model.LogModel;
 
 import com.machinezoo.sourceafis.FingerprintTemplate;
 import java.io.BufferedReader;
@@ -21,6 +22,8 @@ import java.nio.Buffer;
 import java.nio.ByteBuffer;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.logging.Level;
 import javax.servlet.ServletException;
 import javax.servlet.ServletInputStream;
@@ -68,6 +71,9 @@ public class AuthController extends HttpServlet {
             case "finger":
                 content = AuthFinger(req);
                 break;
+            case "log":
+                content = GetLogFinger(req);
+                 break;
             default:
                 content = CommonModel.FormatResponse(-1, "Invalid command");
         }
@@ -91,6 +97,25 @@ public class AuthController extends HttpServlet {
         }
 
         return CommonModel.FormatResponse(-1, "falure");
+
+    }
+
+    
+    private String GetLogFinger(HttpServletRequest req) {
+        try {
+            List<Finger> logs = new ArrayList<Finger>();
+            LogModel.getInstance().getTopLog(logs);
+            
+            return CommonModel.FormatResponse(0, "success", logs);
+        } catch (IOException ex) {
+            logger.error(getClass().getSimpleName() + ".GetLogFinger: " + ex.getMessage(), ex);
+            
+        } catch (Exception ex) {
+           logger.error(getClass().getSimpleName() + ".GetLogFinger: " + ex.getMessage(), ex);
+            
+        }
+
+        return CommonModel.FormatResponse(-1, "failure");
 
     }
 

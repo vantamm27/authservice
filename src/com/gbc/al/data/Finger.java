@@ -18,6 +18,7 @@ import java.util.logging.Logger;
  */
 public class Finger {
     private long id = -1l;
+    private String code;
     private String name;
     private String source;
     private transient FingerprintTemplate fgt = null;
@@ -120,5 +121,19 @@ public class Finger {
         }
         return false;
                 
+    }
+
+    /**
+     * @return the code
+     */
+    public String getCode() {
+        return code;
+    }
+
+    /**
+     * @param code the code to set
+     */
+    public void setCode(String code) {
+        this.code = code;
     }
 }
