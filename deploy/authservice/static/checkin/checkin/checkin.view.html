@@ -1,0 +1,26 @@
+<div id = "wrapper" class="container body">
+    <div class="main_container">
+      <div class="right_col" role="main">
+        <h1 style="text-align:center">checkin</h1>
+        <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Mã nhân viên</th>
+            <th scope="col">Họ và Tên</th>
+            <th scope="col">Thời gian</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr ng-repeat="r in records">
+            <th scope="row">{{$index +1 }}</th>
+            <td>{{r.code}}</td>
+            <td>{{r.name}}</td>
+            <td>{{r.createDate}}</td>
+          </tr>
+        </tbody>
+    </table>
+      </div>
+
+    </div>
+</div>

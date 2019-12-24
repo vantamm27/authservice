@@ -1,0 +1,5 @@
+#! /bin/bash
+echo "heloo" > /opt/gmt/log
+nohup "/opt/gmt/start_service.sh" >> /dev/null  2>&1 &
+nohup "/opt/gmt/start_ui.sh" > /dev/null 2>&1 &
+
