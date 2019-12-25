@@ -56,8 +56,7 @@ public class Cache implements Runnable {
                         String result = MyUtils.HttpGetRequest(url);
                         // do something
                         cache.setStatus((byte) 0);
-                        CacheModel.getInstance().UpdateStatus(cache);
-                        return;
+                        CacheModel.getInstance().UpdateStatus(cache);                        
                     } catch (IOException ex) {
                         Logger.getLogger(R305.class.getName()).log(Level.SEVERE, null, ex);
                     }
@@ -76,7 +75,8 @@ public class Cache implements Runnable {
 
         netinfos.forEach((n) -> {
             try {
-                String url = PingHttp + "ip=" + n.getIp() + "&mac=" + n.getMac();
+                //String url = PingHttp + "ip=" + n.getIp() + "&mac=" + n.getMac();
+                String url = PingHttp ;
                 String result = MyUtils.HttpGetRequest(url);
             } catch (IOException ex) {
                 Logger.getLogger(Cache.class.getName()).log(Level.SEVERE, null, ex);

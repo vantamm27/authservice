@@ -6,7 +6,7 @@ TEMP=0
 
 function run() {
  echo "java -cp lib -Xmx300M -Dlog4j.configuration=file:./log4j.properties -jar  dist/authservice.jar"
- #java -cp lib -Xmx300M -Dlog4j.configuration=file:./log4j.properties -jar  dist/authservice.jar 
+ java -cp lib -Xmx300M -Dlog4j.configuration=file:./log4j.properties -jar  dist/authservice.jar 
 }
 
 echo "PRO_NAME $PRO_NAME"
